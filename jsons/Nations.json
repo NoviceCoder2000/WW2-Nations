@@ -1,0 +1,70 @@
+[
+	{
+		"name": "German Reich",
+		"leaderName": "Adolf Hitler",
+		"adjective": ["Nazi"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Heil mein Führer, most brilliant leader of the Reich and the German people. You are the successor to the Third Empire; the empire of the illustrious German race. Germany was once a great nation, but after the humiliating defeat of the First World War, Germany has turned into nothing but a pushover to the Entente within the west, and the Communists from the East, inflation is the highest in history, and unrest and riots are everywhere. But through you, the Fatherland have risen from the ashes of our past, and made Germany a great power again in a span of a decade. Political unrest has died down, economy has boomed to competence, the people is satisfied within your rule.",
+		"startIntroPart2": "O' Great leader of the Reich, the time has come, our neighbors are envious and the road to the 'Endsieg' awaits, history is now to be decided. Can you bring the greatness that the people waited for so long? can you build an everlasting and powerful Reich? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
+		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
+		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would rather prefer to blow my brains out.",
+		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
+		
+		"neutralHello": "Heil!",
+		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","Of course not!"],
+		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
+		
+		"hateHello": "Speak!",
+		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
+		"hateNo": ["No!","That is outrageous!","Never!"],
+		"hateYes": ["Fine!","Very well then.","This may work."],
+		
+		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
+		"outerColor": [255,0,0],
+		"innerColor": [60,60,60],	
+		
+		"uniqueName": "Blitzkrieg",
+		"uniques": ["[+10]% Strength <for [Armored] units>","+[1] Movement <for [Armored] units> <when at war>","[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
+	},
+	
+	{
+		"name": "Soviet Union",
+		"leaderName": "Joseph Stalin",
+		"adjective": ["Soviet"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Salutations Comrade Stalin, Vozhd of the Soviet Union and the great successor of Lenin, the father of our country! It is no secret that the country was made by blood and sacrifice, such act will forever be remembered within our great revolution of the 1917, and to this day, you are still remembered to fight alongside Lenin as one of his generals and liberated our motherland from the imperialist Tsarist Russia. Although our early years as a nation was difficult, we have managed to persevere and by 1945, 23 years after our nation was founded, we were then considered as a global superpower, thanks to our collective efforts as a nation.",
+		"startIntroPart2": "Comrade! The time has come, the world must be liberated from such imperialistic ideals, the workers call your name. Can you build a utopia free from capitalism? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "The laborers has called, we must liberate the people from the capitalist pigs such as you!",
+		"attacked": "We do not like taking any foreign territory, but we shall never give up even a single grain of our lands!",
+		"defeated": "Imperilaist dog! You may have crushed the Soviet Union now, but you will never destroy the spirit of the revolution!",
+		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
+		"neutralYes": ["Good.","Very well.","This will do."],
+		
+		"hateHello": "What do you want!?",
+		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
+		"hateNo": ["Never!","Excuse me?","You are joking right?"],
+		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
+		
+		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
+		"outerColor": [ 255, 0, 0],
+		"innerColor": [255,255,0],
+		
+		"uniqueName": "The Great Trial",
+		"uniques": ["-[75]% maintenance costs for [Military] units <when at war>","Gold cost of upgrading [Land] units reduced by [25]%","[+10]% [Science] <when at war>"],
+		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"]
+	}
+]

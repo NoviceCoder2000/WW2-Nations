@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Tiger",
+		"unitType": "Armored",
+		"uniqueTo": "German Reich",
+		"replaces": "Tank",
+		"movement": 4,
+		"strength": 80,
+		"cost": 425,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"promotions": ["Shock I"], 
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+	
+	{
+		"name": "Me 262",
+		"unitType": "Fighter",
+		"uniqueTo": "German Reich",
+		"replaces": "Jet Fighter",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Fighter] units>"], //Also gains free air sweep promotion
+		"attackSound": "jetgun"
+	},
+	
+	{
+		"name": "T-34",
+		"unitType": "Armored",
+		"uniqueTo": "Soviet Union",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 70,
+		"cost": 325,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+	
+	{
+		"name": "BM-13",
+		"unitType": "Siege",
+		"uniqueTo": "Soviet Union",
+		"replaces": "Rocket Artillery",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Gunpowder] units> <when attacking>","No defensive terrain bonus","[-1] Sight","Ranged attacks may be performed over obstacles"],
+		"attackSound": "artillery"
+	},
+]
