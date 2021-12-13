@@ -1,0 +1,83 @@
+
+game.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/Adolf Hitler
+  rotate: false
+  xy: 4, 252
+  size: 200, 250
+  orig: 200, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Joseph Stalin
+  rotate: false
+  xy: 212, 229
+  size: 200, 273
+  orig: 200, 273
+  offset: 0, 0
+  index: -1
+NationIcons/German Reich
+  rotate: false
+  xy: 420, 194
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Soviet Union
+  rotate: false
+  xy: 836, 402
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/BM-13
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/T-34
+  rotate: false
+  xy: 420, 154
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tiger
+  rotate: false
+  xy: 528, 262
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/BM-13
+  rotate: false
+  xy: 4, 44
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Me 262
+  rotate: false
+  xy: 420, 302
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/T-34
+  rotate: false
+  xy: 628, 302
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Tiger
+  rotate: false
+  xy: 212, 21
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
