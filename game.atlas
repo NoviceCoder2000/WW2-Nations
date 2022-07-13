@@ -20,14 +20,21 @@ LeaderIcons/Joseph Stalin
   index: -1
 NationIcons/German Reich
   rotate: false
-  xy: 420, 194
+  xy: 836, 402
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Soviet Union
   rotate: false
-  xy: 836, 402
+  xy: 628, 194
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/United States of America
+  rotate: false
+  xy: 628, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,14 +48,14 @@ TileSets/FantasyHex/Units/BM-13
   index: -1
 TileSets/FantasyHex/Units/T-34
   rotate: false
-  xy: 420, 154
+  xy: 944, 470
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tiger
   rotate: false
-  xy: 528, 262
+  xy: 736, 262
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -60,24 +67,38 @@ UnitIcons/BM-13
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Me 262
+UnitIcons/M1 Abrams
   rotate: false
   xy: 420, 302
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/T-34
+UnitIcons/Marine Trooper
   rotate: false
   xy: 628, 302
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Tiger
+UnitIcons/Me 262
   rotate: false
   xy: 212, 21
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/T-34
+  rotate: false
+  xy: 420, 94
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Tiger
+  rotate: false
+  xy: 836, 294
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
