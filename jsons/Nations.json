@@ -25,11 +25,11 @@
 		"hateYes": ["Fine!","Very well then.","This may work."],
 		
 		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
-		"outerColor": [255,0,0],
-		"innerColor": [60,60,60],	
+		"outerColor": [255,25,25],
+		"innerColor": [54,54,54],	
 		
 		"uniqueName": "Blitzkrieg",
-		"uniques": ["[+10]% Strength <for [Armored] units>","+[1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [All] units> <during a Golden Age>","+[1] Movement <for [All] units> <during a Golden Age>"],
+		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [All] units> <during a Golden Age>","[+1] Movement <for [All] units> <during a Golden Age>"],
 		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
 	},
 	
@@ -64,7 +64,7 @@
 		"innerColor": [255,255,0],
 		
 		"uniqueName": "War of The People",
-		"uniques": ["-[75]% maintenance costs for [All] units <when at war>", "-[25]% Gold cost of upgrading","+[15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
+		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[-25]% Gold cost of upgrading","[-15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
 		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"]
 	},
 	

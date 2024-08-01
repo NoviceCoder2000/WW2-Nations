@@ -82,7 +82,7 @@
 	},
 	
 	{
-		"name": "Marine Trooper",
+		"name": "US Marines",
 		"unitType": "Gunpowder",
 		"uniqueTo": "United States of America"
 		"replaces": "Marine",
@@ -91,7 +91,7 @@
 		"cost": 375,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	
@@ -111,23 +111,6 @@
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
-
-
-	{
-		"name": "M1 Abrams",
-		"unitType": "Armored",
-		"replaces": "Modern Armor"
-		"uniqueTo": "America",
-		"movement": 5,
-		"strength": 100,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus","+[10]% combat bonus for units fighting in [Desert]","Unbuildable","Will not be displayed in Civilopedia"],
-		"promotions": ["Shock I"]
-		"attackSound": "tankshot"
-	},
 	
 	{
 		"name": "U-Boat",
@@ -141,7 +124,7 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"promotion": "[Commerce Raider]",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","[+1] Movement","<in [Foreign] tiles>"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","[+1] Movement <in [Foreign] tiles>"],
 		"attackSound": "torpedo"
 	},
 ]
