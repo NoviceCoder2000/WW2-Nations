@@ -1,0 +1,211 @@
+[
+  {
+      "name": "Jean Gunnhildr",
+	  "preferredVictoryType": "Cultural",
+     
+	 // Stats focused personalities	  
+      "production": 4,
+      "food": 6,
+      "gold": 4,
+      "science": 4,	  
+      "culture": 9,
+      "happiness": 11,
+      "faith": 9,
+	  
+      // Behavour focused personalities
+      "military": 8,
+      "aggressive": 2,
+      "declareWar": 4,
+      "commerce": 8,
+      "diplomacy": 11,
+      "loyal": 10,
+      "expansion": 6,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 2,
+          "Liberty": 8,
+          "Honor": 10,
+          "Commerce": 6,
+          "Patronage": 6,
+          "Piety": 8,
+          "Rationalism": 2,
+          "Freedom": 12,
+          "Autocracy": 1,
+          "Order": 1
+      },
+      "civilopediaText": [
+        {
+			  "text": "Acting Grandmaster of the Knights of Favonious while Grandmaster Varka is currently away. Jean is inclined to protect Mondstadt at all cost. As the Grandmaster in Mondstadt, it is her duty to withhold the Freedom of each and every individuals in the land."
+		}
+      ]
+  }
+
+  {
+      "name": "Ningguang",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 10,
+      "food": 7,
+      "gold": 12,
+      "science": 5,	  
+      "culture": 4,
+      "happiness": 5,
+      "faith": 6,
+	  
+      // Behavour focused personalities
+      "military": 4,
+      "aggressive": 4,
+      "declareWar": 4,
+      "commerce": 12,
+      "diplomacy": 10,
+      "loyal": 10,
+      "expansion": 8,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 10,
+          "Liberty": 4,
+          "Honor": 4,
+          "Commerce": 12,
+          "Patronage": 8,
+          "Piety": 6,
+          "Rationalism": 6,
+          "Freedom": 4,
+          "Autocracy": 2,
+          "Order": 8
+      },
+      "civilopediaText": [
+        {
+			  "text": "The Tianquan of the Qixing. Ningguang is the wealthiest personality throughout Teyvat, being able to build one of the busiest trade networks throughout the continent as well as the Jade Chamber, a great house flying in the sky. Ningguang's love for money is not due to greed, but due to her past as extremely poor who had to work on cheap labor. Now she's ready to sacrifice her wealth if the safety of Liyue is at stake."
+		}
+      ]
+  }
+
+ {
+      "name": "Raiden Shogun",
+	  "preferredVictoryType": "Cultural",
+     
+	 // Stats focused personalities	  
+      "production": 4,
+      "food": 9,
+      "gold": 2,
+      "science": 4,	  
+      "culture": 11,
+      "happiness": 6,
+      "faith": 10,
+	  
+      // Behavour focused personalities
+      "military": 9,
+      "aggressive": 4,
+      "declareWar": 6,
+      "commerce": 4,
+      "diplomacy": 6,
+      "loyal": 9,
+      "expansion": 4,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 11,
+          "Liberty": 4,
+          "Honor": 11,
+          "Commerce": 4,
+          "Patronage": 6,
+          "Piety": 11,
+          "Rationalism": 2,
+          "Freedom": 3,
+          "Autocracy": 10,
+          "Order": 6
+      },
+      "civilopediaText": [
+        {
+			  "text": "The Almighty Narukami Ogosho and the awesome yet terrible power of Thunder. She is a feared leader and warrior by both her subordinates and enemies alike, fearing to be at the receiving end of the Musuo no Hitotachi that none so far have managed to parry besides the lone descendant of the Kaedehara Clan. After losing her twin, Makoto: Ei, believed that isolating oneself can preserve all that's precious to her; that is Inazuma itself and her people."
+		}
+      ]
+  },
+  
+  {
+      "name": "Sangonomiya Kokomi",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 8,
+      "food": 5,
+      "gold": 4,
+      "science": 7,	  
+      "culture": 4,
+      "happiness": 6,
+      "faith": 10,
+	  
+      // Behavour focused personalities
+      "military": 8,
+      "aggressive": 5,
+      "declareWar": 4,
+      "commerce": 8,
+      "diplomacy": 11,
+      "loyal": 10,
+      "expansion": 6,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 8,
+          "Liberty": 4,
+          "Honor": 6,
+          "Commerce": 6,
+          "Patronage": 8,
+          "Piety": 12,
+          "Rationalism": 2,
+          "Freedom": 3,
+          "Autocracy": 10,
+          "Order": 6
+      },
+      "civilopediaText": [
+        {
+			  "text": "The Divine Priestess of Watatsumi Island. Despite her seemingly innocent role, Kokomi is a master strategist who understood the principles of governance, military strategy and diplomacy, who resisted against the Raiden Shogun's controversial 'Vision Hunt Decree' that aims to strip people their visions as this can threaten eternity. As a result, Kokomi has a well-balanced personality all around."
+		}
+      ]
+  }
+
+ {
+      "name": "Nahida",
+	  "preferredVictoryType": "Scientific",
+     
+	 // Stats focused personalities	  
+      "production": 4,
+      "food": 8,
+      "gold": 2,
+      "science": 11,	  
+      "culture": 8,
+      "happiness": 11,
+      "faith": 4,
+	  
+      // Behavour focused personalities
+      "military": 4,
+      "aggressive": 4,
+      "declareWar": 1,
+      "commerce": 11,
+      "diplomacy": 11,
+      "loyal": 12,
+      "expansion": 5,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 8,
+          "Liberty": 5,
+          "Honor": 2,
+          "Commerce": 4,
+          "Patronage": 8,
+          "Piety": 2,
+          "Rationalism": 12,
+          "Freedom": 11,
+          "Autocracy": 4,
+          "Order": 4
+      },
+      "civilopediaText": [
+        {
+			  "text": "The youngest of the 7 Archons, and the God of Wisdom. Nahida possess a child-like appearance and personality. But don't be fooled, she is as wise if not wiser than any human adult. Born out of the sacrifice of [REDACTED], Nahida is Sumeru's second Archon. Despite being a god, she is very forgiving and diplomatic to others who had offended her."
+		}
+      ]
+  },
+ ]

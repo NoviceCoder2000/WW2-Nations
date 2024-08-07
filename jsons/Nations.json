@@ -1,74 +1,206 @@
 [
 	{
-		"name": "German Reich",
-		"leaderName": "Adolf Hitler",
-		"adjective": ["Nazi"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Positive Christianity",
+		"name": "Mondstadt",
+		"leaderName": "Jean Gunnhildr",
+		"adjective": ["Mondstadter"],
+		"startBias": ["Avoid [Forest]", "Avoid [Jungle]"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "The Anemo Archon",
+		"personality": "Jean Gunnhildr",
+		
+		"startIntroPart1": "Let the Wind Lead, Acting Grandmaster Jean, Dandelion Knight, and daughter of the honorable Gunnhildr Clan. Mondstadt is the land of the Anemo Archon, who values Freedom above anything else. This came from a story from a thousand years ago, Mondstadt were ruled by tyranny under the iron hand of Decabrian of the Old City, where people of the Old Mondstadt were never permitted to exit the city and journey beyond, for Decabrian saw this as the only way to protect his people. However, Gunnhildr, bless be her name, was one of our nation's greatest heroes as well as your ancestor. She and other men and women who sought to regain their freedom rebelled and have managed to overthrow the tyrannical rule of Decabrian. Since then, the Anemo Archon blessed our people with Freedom, to follow our own paths, and be free like the wind.",
+		"startIntroPart2": "Mondstadt had long retained its freedom, however, freedom cannot be safeguarded forever. New enemies appear within the horizon, their hearts filled with greed and lust for wealth, they are eager to conquer the lands for gold and glory. Due to this, Mondstadt must learn the ways of the world in order to preserve the freedom it had fought a thousand years ago. Acting Grandmaster Jean, can you ensure that the freedom our ancestors fought shall last? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Your rule of an iron fist must be stopped. For I cannot allow another Decabrian rise to power.",
+		"attacked": "You may attack us, kill us, torture... but you can never take one thing: our freedom.",
+		"defeated": "Modstadt, everyone... please forgive me for letting this happen, for I have failed my duty as Mondstadt's protector...",
+		"introduction": "I am Jean, Dandelion Knight and Acting Grand Master of the Knights of Favonious. It seems the wind has fated us to meet stranger. With that, I offer my hand of friendship to you.",
+		
+		"neutralHello": "Greetings, what brings you here?",
+		"neutralLetsHearIt": ["Tell me then.", "What's in your mind?", "Go on then."],
+		"neutralNo": ["Maybe some other time.", "I shall refuse.", "Not right now."],
+		"neutralYes": ["Very good, friend.", "Of course.", "Why not?"],
 
-		"startIntroPart1": "Heil mein Führer, most brilliant leader of the Reich and the German people. You are the successor to the Third Reich; the empire of the illustrious German race. Germany was once a great nation, but after the humiliating defeat of the First World War, Germany has turned into nothing but a pushover to the Entente within the west, and the Communists from the East, inflation is the highest in history, and unrest and riots are everywhere. But through you, the Fatherland have risen from the ashes of our past, and made Germany a great power again in a span of a decade. Political unrest has died down, economy has boomed to competence, the people is satisfied within your rule.",
-		"startIntroPart2": "O' Great leader of the Reich, the time has come, our neighbors are envious and the road to the 'Endsieg' awaits, history is now to be decided. Can you bring the greatness that the people waited for so long? can you build an everlasting and powerful Reich? Can you build a civilization that can withstand the test of time?",
+		"hateHello": "Hmm?",
+		"hateLetsHearIt": ["Say it.", "What?", "Don't make me wait."],
+		"hateNo": ["Unacceptable.", "Your offer is lacking.", "That cannot be done."],
+		"hateYes": ["It has merit.", "It seems reasonable.", "Fine then."],
 		
-		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
-		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
-		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would rather prefer to blow my brains out.",
-		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
+		"afterPeace": "Too many blood were spilled. Let's hope this shall never happen again Alright?.",
+		"tradeRequest": "Greetings friend, do you find this offer interesting?",
+
+		"outerColor": [52,135,113],
+		"innerColor": [235,225,200],
+		"uniqueName": "City of Songs, Wind and Freedom",
+		"uniques": ["[+1 Happiness] per [2] social policies adopted <after adopting [Freedom]>",
+		"[+1 Happiness] per [5] population [in all non-occupied cities]",
+		"[+15]% growth [in all non-occupied cities] <while the empire is happy>"],
+		"cities": ["Mondstadt", "Dornman Port", "Springvale", "Windfeld", "Eisenburg", "Sturmhafen", "Falkenstein", "Glanzheim", "Silberwald", "Wolfshaven", "Nebelstadt", "Adlerhorst", "Kronthal", "Drachenfels", "Lichtbach", "Waldheim", "Brisenburg", "Sonnengard", "Schattenwald", "Silbersee", "Helmgart", "Bergthal", "Eichenwald", "Hochstein", "Morgengrau", "Steinbruch", "Flussburg", "Himmelspforte"]
+		"spyNames": ["Kaeya", "Eula", "Mika", "Venti", "Amber", "Rosaria", "Lisa", "Albedo", "Noelle", "Sucrose"]
+	},
+
+	{
+		"name": "Liyue",
+		"leaderName": "Ningguang",
+		"adjective": ["Liyuean"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "The Geo Archon",
+		"personality": "Ningguang",
 		
-		"neutralHello": "Heil!",
-		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
-		"neutralNo": ["No.","Certainly not.","Of course not!"],
-		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
+		"startIntroPart1": "May Rex Lapis bestow his blessings upon you, Lady Ningguang, Tianquan of Qixing and Teyvat's wealthiest figure. As we all know, Rex Lapis had been an important figure to Liyue, setting the stones and foundation to the prosperity it enjoys today. However, during one of his Rite of Descension, Rex Lapis were killed and Liyue was plunged further into chaos after Osial was summoned by none other than Tartaglia, the 11th Harbinger of the Fatui. However, due to the combined valiance of both men and adeptus, Osial, the God of Vortex, and was once Rex Lapis' mortal foe was vanquished and order was restored to Liyue once more. It was later revealed in a dream however, that Rex Lapis is still alive, but these events were his lesson: that it is about time for Liyue to learn how to stand up for themselves and learn to live for themselves and remove yoke of dependence on his footsteps. It is also a sign that a new era ruled by mankind is necesarry for Liyue in order to prosper and grow as a nation of Teyvat.",
+		"startIntroPart2": "Now that these lessons were realized, you are now entrusted for the task of leading Liyue to a golden age shaped by our own hands instead of Rex Lapis. Lady, Ningguang, can you lead Liyue to prosperity? Can you bring greatness to Liyue without Rex Lapis? Can you build a civilization that can withstand the test of time?",
 		
-		"hateHello": "Speak!",
-		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
-		"hateNo": ["No!","That is outrageous!","Never!"],
-		"hateYes": ["Fine!","Very well then.","This may work."],
+		"declaringWar": "Liyue is better of without you, and I believe it is time to rid you from this world.",
+		"attacked": "It is not the first time my adversary underestimated me. Very well, I hope you do not disappoint.",
+		"defeated": "The stone may be still, but... I suppose even rocks cannot withstand the test of time.",
+		"introduction": "I am Ningguang, Tianquan of Qixing; in other words, one of Liyue's leaders. Do you wish to trade foreigner? Then I want you to speak with honor and honestly. After all, contract is important here in Liyue.",
 		
-		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
-		"outerColor": [255,25,25],
-		"innerColor": [54,54,54],	
+		"neutralHello": "What can I help you with?",
+		"neutralLetsHearIt": ["Do you wish to trade?", "You have my interest.", "What do you have in mind?"],
+		"neutralNo": ["No.", "I'm afraid not.", "I cannot agree to it."],
+		"neutralYes": ["I like the sound of that.", "A pleasure to make this deal.", "Excellent."],
+
+		"hateHello": "Hmph. Do you come to speak to me?",
+		"hateLetsHearIt": ["What is it?", "Don't make me wait.", "Talk."],
+		"hateNo": ["Don't waste my time.", "Certainly not!", "You're joking, right?"],
+		"hateYes": ["Very well.", "A profit is a profit.", "Fine."],
 		
-		"uniqueName": "Blitzkrieg",
-		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [All] units> <during a Golden Age>","[+1] Movement <for [All] units> <during a Golden Age>"],
-		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
-		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
+		"afterPeace": "Why won't we sign a contract of agreement to withhold peace forever between two of us?",
+		"tradeRequest": "After much deliberation, I came to a conclusion that this trade shall enhance both of our positions.",
+
+		"outerColor": [232,198,96],
+		"innerColor": [59,47,46],
+		"uniqueName": "Mountains of Stone and Contracts",
+		"uniques": ["Gifts of Gold to City-States generate [+25]% more Influence",
+		"Allied City-States provide [Gold] equal to [+50]% of what they produce for themselves",
+		"[+50]% Gold from Great Merchant trade missions",
+		"[Great Merchant] is earned [+50]% faster",],
+		"cities": ["Liyue Harbor", "Yilong Wharf", "Qiaoying Village", "Qingce Village", "Mingyun Village", "Jianning", "Fengshu", "Huashan", "Yujing", "Yanxia", "Longxi", "Baihe", "Honglu", "Lantian", "Qingshan", "Shulin", "Zhiyun", "Wuhai", "Xingtian", "Donghai", "Yanping", "Meilin", "Tianjin", "Yunlong", "Chengling", "Haoyang", "Jinxiu", "Longfeng", "Guangming", "Yushan", "Xingluo", "Fenghuang", "Lanxi", "Qingyun", "Taoling"]
+		"spyNames": ["Yelan", "Beidou", "Ganyu", "Keqing", "Shenhe", "Zhongli", "Hu Tao", "Xinqiu", "Yanfei", "Gaming", "Xiao"]
+	},
+
+	{
+		"name": "Inazuma",
+		"leaderName": "Raiden Shogun",
+		"adjective": ["Inazuman"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "The Electro Archon",
+		"personality": "Raiden Shogun",
+		
+		"startIntroPart1": "Hail to you, your Excellency. The Narukami Ogosho, the God of Thunder and sovereign of Inazuma, Raiden Shogun. Inazuma is the Land of Eternity, whom you which have been protecting for far so long. However 500 years, the loss of Makoto, your twin sister had been a devastating loss to our nation. As a result, you forced yourself to isolate yourself from the eyes of people and ruled through the Raiden Shogun to which, ruled with an iron fist. However, thanks to the intervention of the Guuiji of the Grand Narukami Shrine and the Traveler, you were enlightened from the flaws of your rule and you made the wise choice of abolishing the Sakoku and Vision Hunt Decrees that done more harm than good for our path to Eternity.",
+		"startIntroPart2": "Times are changing, and so too are the threats that plauge in and out of Inazuma, from barbarians to rising foreign empires. Your Excellency, the people of Inazuma needs a wise leader that can lead through these chaotic times. Can you build the dreams of Eternity that you and your sister dreamt of 500 years ago? Can you protect Inazuma from threats that plauge our divine nation? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You have obstructed my preservation of Eternity for far too long. For that, you shall pay dearly for your insolence!",
+		"attacked": "Hmph, such insolent act. Very well, today, you shall learn to rue that you even dared to threaten the Eternity I have long been preserving.",
+		"defeated": "I... have been defeated? Impossible, What shall become of Inazuma now that the Eternity I have been protecting shall now be gone?",
+		"introduction": "I extend my greetings to you. In case you have yet heard, I, am the Raiden Shogun, the Archon of Electro and Sovereign of Inazuma. If you pose no desire to threaten Eternity, then I suppose we can be friends. However, should you dare of even thinking such act, then beware, for I shall punish you with my own blade.",
+		
+		"neutralHello": "Salutations. What brings you here?",
+		"neutralLetsHearIt": ["I'm listening", "You have my interst.", "Let's hear it."],
+		"neutralNo": ["Allow me to decline.", "It has room for improvement.", "Hmm... Maybe some other time."],
+		"neutralYes": ["I can accept your proposal", "Of course.", "Your words has merit, acceptable."],
+
+		"hateHello": "Speak, before I smite you down.",
+		"hateLetsHearIt": ["Speak.", "Say it.", "Talk."],
+		"hateNo": ["You can flee while you can.", "You dare mock me?", "Enough."],
+		"hateYes": ["Your words make sense.", "Very well.", "You are wiser than what you look."],
+		
+		"afterPeace": "You proven your spirit as a warrior. For that, you have earned my respect.",
+		"tradeRequest": "I believe this proposal can strongly benefit both of our people. Think wisely.",
+
+		"outerColor": [170,126,238],
+		"innerColor": [94,26,65],
+		"uniqueName": "The Islands of Thunder and Eternity",
+		"uniqueText": "+1 Culture, +1 Faith in all non-occupied cities connected to the capital.\nFaith and Culture increases by +1 everytime you enter a new era."
+		"uniques": ["[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Ancient era]>", 
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Classical era]>",
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Medieval era]>",
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Renaissance era]>",
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Industrial era]>",
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Modern era]>",
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Atomic era]>",
+		"[+1 Culture, +1 Faith] [in all non-occupied cities] <in cities connected to the capital> <starting from the [Future era]>"],
+		"cities": ["Inazuma City", "Ritou", "Konda", "Higi", "Jakotsu", "Koseki", "Hiraumi", "Asase", "Chirai", "Akamatsu", "Kurohana", "Higashiyama", "Shirogane", "Kazemura", "Mizugawa", "Yukinaga", "Tatsuyama", "Nagamura", "Hoshizaki", "Hanamizu", "Kagemura", "Uminari", "Kaminari", "Ishimura", "Takamine", "Aozora", "Tsunemura", "Shizukaze"]
+		"spyNames": ["Sayu", "Shikanoin Heizou", "Yoimiya", "Kujou Sara", "Arataki Itto", "Kuki Shinobu", "Kirara", "Kamisato Ayaka", "Yae Miko",]
 	},
 	
 	{
-		"name": "Soviet Union",
-		"leaderName": "Joseph Stalin",
-		"adjective": ["Soviet"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Christianity", //Orthodox in BNW
+		"name": "Watatsumi",
+		"leaderName": "Sangonomiya Kokomi",
+		"adjective": ["Sangonomiyan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Orobashi",
+		"personality": "Sangonomiya Kokomi",
+		
+		"startIntroPart1": "Greetings to you, your Excellency, Sangonomiya Kokomi, the Divine Priestess of Watatsumi Island. Thousands of years ago, a great Serpent named Orobashi have came to Enkanomiya, the forgotten civilization beneath the waves. Orobashi had led our people to the surface, and for the first time, saw the light of the outside world and settled on Watatsumi. However, our lands were infertile, leading to constantly suffer from famine and disease. This forced our God to fight and invaded Narukami Island, the lands that were ruled by none other than by the Raiden Shogun herself. However, our god was slain by the Electro Archon through the sword art of the 'Musou no Hitotachi', losing our deity in battle. This, as a result, created a rift betweem Narukami and Watatsumi that shall be felt even thousands of years later, clashing several times throughout our history.",
+		"startIntroPart2": "However, despite the death of our guardian deity, Orobashi's spirit remains, and even now, many still wish to exploit our homeland. Your Excellency, the time has now came. Can you protect Watatsumi just like before? Can you protect the legacy of Orobashi? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "I can't stand your aggression to others any longer. For that, I already put the strategy against you in motion.",
+		"attacked": "Hmm... don't be so sure of yourself. After all, I have a strategy just for this scenario.",
+		"defeated": "I have thought of everything... yet some things are... just doomed to fail.",
+		"introduction": "I am Sangonomiya Kokomi, the Divine Priestess of Watatsumi Island. As the de facto ruler of Watatsumi and as the Divine Priestess, I extend my greetings to you, kind stranger.",
+		
+		"neutralHello": "What's up?",
+		"neutralLetsHearIt": ["You may proceed?", "Any suggestions?", "What can I help you with?"],
+		"neutralNo": ["That's not good.", "Is there something else in your mind?", "It is difficult to agree."],
+		"neutralYes": ["Alright then.", "This is brilliant.", "Smart."],
 
-		"startIntroPart1": "Salutations Comrade Stalin, Vozhd of the Soviet Union and the great successor of Lenin, the father of our country! It is no secret that the country was made by blood and sacrifice, such act will forever be remembered within our great revolution of the 1917, and to this day, you are still remembered to fight alongside Lenin as one of his generals and liberated our motherland from the imperialist Tsarist Russia. Although our early years as a nation was difficult, we have managed to persevere and by 1945, 23 years after our nation was founded, we were then considered as a global superpower, thanks to our collective efforts as a nation.",
-		"startIntroPart2": "Comrade! The time has come, the world must be liberated from such imperialistic ideals, the workers call your name. Can you build a utopia free from imperialism? Can you build a civilization that can withstand the test of time?",
+		"hateHello": "Hm?",
+		"hateLetsHearIt": ["Very well.", "Might as well hear it.", "Fine, say it then."],
+		"hateNo": ["That can't be right", "No.", "No... I refuse."],
+		"hateYes": ["Very well.", "Acceptable enough.", "This could work."],
 		
-		"declaringWar": "The laborers has called, we must liberate the people from the capitalist pigs such as you!",
-		"attacked": "We do not like taking any foreign territory, but we shall never give up even a single grain of our lands!",
-		"defeated": "Imperilaist dog! You may have crushed the Soviet Union now, but you will never destroy the spirit of the revolution!",
-		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
-		
-		"neutralHello": "Hello.",
-		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
-		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
-		"neutralYes": ["Good.","Very well.","This will do."],
-		
-		"hateHello": "What do you want!?",
-		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
-		"hateNo": ["Never!","Excuse me?","You are joking right?"],
-		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
-		
-		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
-		"outerColor": [ 255, 0, 0],
-		"innerColor": [255,255,0],
-		
-		"uniqueName": "War of The People",
-		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[-25]% Gold cost of upgrading","[+15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
-		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"]
-		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
+		"afterPeace": "War is always a terrible thing for our people. Let's hope no tragedy shall repeat in the future.",
+		"tradeRequest": "I have calculated of everything, and I believe, this proposal shall benefit the both us.",
+
+		"outerColor": [244,194,194],
+		"innerColor": [29,41,81],
+		"uniqueName": "Flawless Strategy",
+		"uniques": ["Great General provides double combat bonus",
+		"[+15]% Strength <when fighting in [Friendly] tiles>",
+		"[+15]% Strength <in tiles adjacent to [Coast] tiles>"],
+		"cities": ["Sangonomiya Shrine", "Bourou", "Sango", "Yamata", "Kaimura", "Nagahama", "Minato", "Nagahama", "Tetsuya", "Aogami", "Kuroda", "Kazemura", "Hisano", "Namikawa", "Nakamura", "Yamata", "Hoshikawa", "Mizushima", "Shirase", "Hiragawa", "Umikage", "Hisano", "Ryujin", "Fukusaki", "Hoshino"]
+		"spyNames": ["Gorou", "Kaida Ryouma", "Yabe", "Ueno", "Kuotoku", "Yoshihisa", "Hiroaki", "Moriguchi", "Tsuneo", "Shouji"]
 	},
 	
+	{
+		"name": "Sumeru",
+		"leaderName": "Nahida",
+		"adjective": ["Sumerian"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "The Dendro Archon",
+		"personality": "Nahida",
+		
+		"startIntroPart1": "Blessings be upon you Lesser Lord Kusanali, the God of Wisdom and the Dendro Archon. Sumeru was once but a barren desert in the heart of Teyvat, but under the guidance of [REDACTED], what was once a barren corner of land turned into a lush and lively forest, which later became the homeland of wisdom and knowledge. Though not all was well, the Sages, under the guidance of Grand Sage Azar and the backing of Il Dottore and the Fatui, Azar and 3 other Sages conspired to overthrow the rule on Sumeru that the late [REDACTED] entrusted to you and imprisoned you for 500 years. Fortunately, the Traveler and a group of loyal and patriotic Sumerians have saw their despicable plot and managed to free you and overthrow them along with their plans to create a false god through the [REDACTED]. Now that order has been restored, the dreams of [REDACTED] of you guiding Sumeru can finally be realized. It is now up to you to finally guide Sumeru into a new era, 500 years since her passing.",
+		"startIntroPart2": "Though the memories of [REDACTED] was forever removed from the Irminsul, she believes, that you, as her sapling shall usher the Land of Wisdom into greatness, perhaps greater than what she could ever hope for. Can you protect the sacred forests that [REDACTED] nourished? Can you fulfill her greatest wish? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "I, for so long have understood that violence can't always resolve problems, but this isn't the case for this instance.",
+		"attacked": "I know for some time already that you're harboring such thoughts against me. For that, I have a surprise already waiting just for you...",
+		"defeated": "I don't understand... where did I go wrong? I always wished we could be friends and prosper together, but... life... can be cruel...",
+		"introduction": "Nice to meet you! Hehe, I've actually been watching you for a long time already. My name's Nahida. I might look like a child, but don't be fooled: I understand this world much better than any grown-up. So... I heard so much about you, do you want to share your story about how you rule your nation? Oh I know! How about we talk about our dreams and hope for the people of this world?",
+		
+		"neutralHello": "Hello! It's been a long time! What can I do for you?",
+		"neutralLetsHearIt": ["Sure. What is it?", "I'm excited to hear it.", "Is there something I can do for you?"],
+		"neutralNo": ["Umm... that's a bit too much to ask.","Maybe some other time...", "Uhh... maybe, give it some thought?"],
+		"neutralYes": ["Hehe, Sure!","That can be arranged!","A wise offer, I accept!"],
 
+		"hateHello": "Umm... What do you need?",
+		"hateLetsHearIt": ["Let's hear it", "What do you have in mind?", "Go on, I will listen."],
+		"hateNo": ["I cannot say I would agree to it","Maybe you have something else to offer?","No."],
+		"hateYes": ["Knowledge is knowledge after all.","Your offer is irresitable.","Alright, we can agree to it."],
+		
+		"afterPeace": "'The best way to destroy an enemy is to make him a friend..' I hope one day, both of us can reach this same conclusion.",
+		"tradeRequest": "They say that: 'Alone we can do so little; together we can do so much.' For that, I wanted to share this deal with you, I hope you accept.",
+
+		"outerColor": [101,144,116],
+		"innerColor": [235,249,197],
+		"uniqueName": "Forest of Lore",
+		"uniques": ["[+1 Food] from every [Jungle]", "[+1 Food] from every [Forest]", "[+1 Science] from every [Temple]", "[Great Scientist] is earned [+25]% faster"],
+		"cities": ["Sumeru City", "Port Ormos", "Caravan Ribat", "Gandharva Ville", "Bayda", "Vilmara Village", "Pardis Dhyai", "Jamshidabad", "Ravansara", "Nishapora", "Indrakhet", "Lavanara", "Sahasranagar", "Yashtavan", "Ahuradara", "Samarkhet", "Arjavpur", "Aditi", "Simorghabad", "Mahadevpur", "Sitapath", "Kalashan", "Mehrangarh", "Chandrakanta", "Vishalakshi", "Zarathustra", "Khorshid"]
+		"spyNames": ["Wanderer", "Tighnari", "Cyno", "Alhaitham", "Nilou", "Kaveh", "Collei", "Faruzan", "Dori", "Layla"]
+	},
 ]
