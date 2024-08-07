@@ -1,82 +1,130 @@
 [
 	{
-		"name": "Knight of Favonious",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Mondstadt",
+		"name": "Tiger",
+		"unitType": "Armored",
+		"uniqueTo": "German Reich",
+		"replaces": "Panzer"
+		"replaces": "Tank",
 		"movement": 4,
-		"strength": 18,
-		"cost": 100,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Shock I", "Home Sweet Home"]
-		"attackSound": "horse"
-	},
-
-	{
-		"name": "Millelith",
-		"unitType": "Sword",
-		"replaces": "Pikeman",
-		"uniqueTo": "Liyue",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
-		"promotions": ["Drill I", "Evil Shall Never Prevail!"],
-		"attackSound": "metalhit"
-	},
-
-	{
-		"name": "Yoriki Samurai",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Inazuma",
-		"movement": 2,
-		"strength": 23,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"promotions": ["For the Shogun!"],
-		"attackSound": "metalhit"
+		"strength": 80,
+		"cost": 395,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"promotions": ["Shock I","Blitz"], 
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
 	},
 	
 	{
-		"name": "Resistance Soldier",
-		"unitType": "Sword",
-		"replaces": "Pikeman",
-		"uniqueTo": "Watatsumi",
-		"movement": 2,
-		"strength": 13,
-		"cost": 75,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
-		"promotions": ["Resistance to Tyranny"],
-		"attackSound": "metalhit"
+		"name": "Me 262",
+		"unitType": "Fighter",
+		"uniqueTo": "German Reich",
+		"replaces": "Jet Fighter",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Fighter] units>"], //Also gains free air sweep promotion
+		"attackSound": "jetgun"
 	},
-
+	
 	{
-		"name": "Vanara",
-		"unitType": "Archery",
-		"uniqueTo": "Sumeru",
-		"replaces": "Crossbowman",
+		"name": "T-34",
+		"unitType": "Armored",
+		"uniqueTo": "Soviet Union",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 70,
+		"cost": 325,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking", "Can move immediately once bought", "No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+	
+	{
+		"name": "BM-13",
+		"unitType": "Siege",
+		"uniqueTo": "Soviet Union",
+		"replaces": "Rocket Artillery",
 		"movement": 2,
-		"strength": 10,
-		"rangedStrength": 15,
-		"cost": 120,
-		"requiredTech": "Civil Service",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["Forest Ranger"],
-		"attackSound": "arrow"
-	}
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Gunpowder] units> <when attacking>","No defensive terrain bonus","[-1] Sight","Ranged attacks may be performed over obstacles"],
+		"attackSound": "artillery"
+	},
+	
+	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "America", //USA
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Evasion", "Siege I"],
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	
+	{
+		"name": "US Marines",
+		"unitType": "Gunpowder",
+		"uniqueTo": "United States of America"
+		"replaces": "Marine",
+		"movement": 2,
+		"strength": 75,
+		"cost": 375,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"attackSound": "shot"
+	},
+	
+// Replaced Units
+	
+	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Cannot be purchased","Will not be displayed in Civilopedia","Unbuildable"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	
+	{
+		"name": "U-Boat",
+		"replaces": "Submarine"
+		"unitType": "Submarine",
+		"uniqueTo": "Germany",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 325,
+		"requiredTech": "Refrigeration",
+		"upgradesTo": "Nuclear Submarine",
+		"promotion": "[Commerce Raider]",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","[+1] Movement <in [Foreign] tiles>"],
+		"attackSound": "torpedo" //Replace with another Imperial German unit
+	},
 ]
