@@ -1,40 +1,47 @@
 
 game.png
-size: 1024, 512
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 LeaderIcons/Adolf Hitler
   rotate: false
-  xy: 4, 252
-  size: 200, 250
-  orig: 200, 250
+  xy: 4, 44
+  size: 449, 449
+  orig: 449, 449
   offset: 0, 0
   index: -1
 LeaderIcons/Joseph Stalin
   rotate: false
-  xy: 212, 229
-  size: 200, 273
-  orig: 200, 273
+  xy: 461, 243
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 NationIcons/German Reich
   rotate: false
-  xy: 836, 402
+  xy: 461, 135
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Soviet Union
   rotate: false
-  xy: 628, 194
+  xy: 569, 135
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United States of America
   rotate: false
-  xy: 628, 86
+  xy: 1759, 285
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Positive Christianity
+  rotate: false
+  xy: 1759, 393
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -48,56 +55,56 @@ TileSets/FantasyHex/Units/BM-13
   index: -1
 TileSets/FantasyHex/Units/T-34
   rotate: false
-  xy: 944, 470
+  xy: 461, 95
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tiger
   rotate: false
-  xy: 736, 262
+  xy: 677, 203
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 UnitIcons/BM-13
   rotate: false
-  xy: 4, 44
+  xy: 719, 293
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/M1 Abrams
   rotate: false
-  xy: 420, 302
+  xy: 927, 293
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Marine Trooper
   rotate: false
-  xy: 628, 302
+  xy: 1135, 293
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Me 262
   rotate: false
-  xy: 212, 21
+  xy: 1343, 293
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/T-34
   rotate: false
-  xy: 420, 94
+  xy: 1551, 293
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Tiger
   rotate: false
-  xy: 836, 294
+  xy: 1867, 393
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
