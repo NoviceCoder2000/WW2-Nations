@@ -44,7 +44,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "Can move immediately once bought", "No defensive terrain bonus"],
 		"attackSound": "tankshot"
 	},
 	
@@ -125,6 +125,6 @@
 		"upgradesTo": "Nuclear Submarine",
 		"promotion": "[Commerce Raider]",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","[+1] Movement <in [Foreign] tiles>"],
-		"attackSound": "torpedo"
+		"attackSound": "torpedo" //Replace with another Imperial German unit
 	},
 ]
