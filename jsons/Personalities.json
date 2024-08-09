@@ -33,7 +33,7 @@
           "Freedom": 1,
           "Autocracy": 12,
           "Order": 1
-      },
+      }
  }
  
  {
@@ -70,9 +70,81 @@
           "Freedom": 1,
           "Autocracy": 1,
           "Order": 12
-      },
+      }
  }
 
+ {
+      "name": "Franklin D. Roosevelt",
+	  "preferredVictoryType": "Scientific",
+     
+	 // Stats focused personalities	  
+      "production": 10,
+      "food": 8,
+      "gold": 6,
+      "science": 8,	  
+      "culture": 5,
+      "happiness": 7,
+      "faith": 4,
+	  
+      // Behavour focused personalities
+      "military": 8,
+      "aggressive": 8,
+      "declareWar": 4,
+      "commerce": 8,
+      "diplomacy": 11,
+      "loyal": 11,
+      "expansion": 6,
 
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 2,
+          "Liberty": 8,
+          "Honor": 4,
+          "Commerce": 10,
+          "Patronage": 7,
+          "Piety": 5,
+          "Rationalism": 7,
+          "Freedom": 12,
+          "Autocracy": 1,
+          "Order": 1
+      }
+ }
+
+ {
+      "name": "Winston Churchill",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 8,
+      "food": 6,
+      "gold": 9,
+      "science": 7,	  
+      "culture": 4,
+      "happiness": 5,
+      "faith": 5,
+	  
+      // Behavour focused personalities
+      "military": 10,
+      "aggressive": 10,
+      "declareWar": 7,
+      "commerce": 4,
+      "diplomacy": 5,
+      "loyal": 10,
+      "expansion": 9,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 8,
+          "Liberty": 4,
+          "Honor": 7,
+          "Commerce": 5,
+          "Patronage": 10,
+          "Piety": 4,
+          "Rationalism": 8,
+          "Freedom": 10,
+          "Autocracy": 2,
+          "Order": 2
+      }
+ }
 
 ]

@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Assembly Plant",
+		"replaces": "Factory",
+		"uniqueTo": "United States of America",
+		"cost": 360,
+		"production": 5,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+		"uniques": ["[+20]% Production when constructing [Armored] units [in this city]",
+		"[+20]% Production when constructing [Siege] units [in this city]",
+		"[+20]% Production when constructing [Air] units [in this city]",]
+	},
+	
+	{
+		"name": "Naval Dockyard",
+		"replaces": "Seaport",
+		"uniqueTo": "United Kingdom",
+		"hurryCostModifier": 25,
+		"production": 1,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Must be next to [Coast]", 
+		"[+33]% Production when constructing [Water] units [in this city]",
+		"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]"],
+		"requiredTech": "Navigation"
+	},
+	
+	//Substitute Buildings
+	{
+		"name": "Frontier Outpost",
+		"replaces": "Armory",
+		"uniqueTo": "America",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[+25]% Production when constructing [Settler] units [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+]

@@ -2,7 +2,7 @@
 	{
 		"name": "German Reich",
 		"leaderName": "Adolf Hitler",
-		"adjective": ["Nazi"],
+		"adjective": ["German"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Positive Christianity",
 		"personality": "Adolf Hitler",
@@ -12,10 +12,10 @@
 		
 		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
 		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
-		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would rather prefer to blow my brains out.",
+		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would prefer to blow my brains out.",
 		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
 		
-		"neutralHello": "Heil!",
+		"neutralHello": "Heil.",
 		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
 		"neutralNo": ["No.","Certainly not.","Of course not!"],
 		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
@@ -30,7 +30,7 @@
 		"innerColor": [54,54,54],	
 		
 		"uniqueName": "Blitzkrieg",
-		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [All] units> <during a Golden Age>","[+1] Movement <for [All] units> <during a Golden Age>"],
+		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [Land] units> <during a Golden Age>","[+1] Movement <for [Land] units> <during a Golden Age>"],
 		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
 		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
 	},
@@ -63,7 +63,7 @@
 		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
 		
 		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
-		"outerColor": [ 255, 0, 0],
+		"outerColor": [179, 0, 0],
 		"innerColor": [255,255,0],
 		
 		"uniqueName": "War of The People",
@@ -71,6 +71,86 @@
 		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"]
 		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
 	},
+
+	{
+		"name": "United States of America",
+		"leaderName": "Franklin D. Roosevelt",
+		"adjective": ["American"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity", //Protestantism
+		"personality": "Franklin D. Roosevelt",
+
+		"startIntroPart1": "Greetings, President Roosevelt. As we all know, you are the 32nd President of the United States, first elected in March 3, 1933. By the 1920s, America have just recently exited the Great War and onwards towards the Great Depression and the Prohibition Period. America was economically bankrupt multiple occasions and the economy managed to return to normal only by 1939, lasting for 10 years. However, due to your 'New Deal' program, the United States have managed to recover economically and get out even stronger than before! However, even after managing to deal with the economical downturn, dark clouds have began to be seen over both Europe and Asia. Another era of conflict is about to begin, and America will once again be the center of it.",
+		"startIntroPart2": "Mr. President, America would require to guide it once more. You have led us out of the Great Depression, and many believed you will lead us into another American Golden Age. Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Your reign of tyranny requires to be ended in order to restore peace. Therefore, prepare for war!",
+		"attacked": "Your treachery to peace shall not easily be forgotten and I will make it certain you receive justice.",
+		"defeated": "Today, we truly live in a year of infamy. But even if we're vanquished, you cannot fully conquer our hearts and minds!",
+		"introduction": "I am Franklin D. Roosevelt, 32nd President of the U.S., I welcome you both as a friend and a prosepective ally.",
+		
+		"neutralHello": "Can I help you?",
+		"neutralLetsHearIt": ["Do you come to negotiate?", "Interesting.", "Tell me then."],
+		"neutralNo": ["I cannot agree.", "It's a no.", "No."],
+		"neutralYes": ["It's a deal.", "Good.", "Very well."],
+		
+		"hateHello": "What do you want?",
+		"hateLetsHearIt": ["What?", "Be quick about it.", "What is it?"],
+		"hateNo": ["No!", "Unacceptable.", "Never!"],
+		"hateYes": ["Acceptable.", "Good.", "Agreeable"],
+		
+		"tradeRequest": "This deal can surely benefit both of our nations.",
+		"outerColor": [47,87,153],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "New Deal",
+		"uniques": ["[+2 Production] per [5] population [in all cities]",
+		"[+1 Production] from every specialist [in all cities] <after discovering [Economics]>"],
+		"cities": ["Washington D.C.","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland", "Honlulu","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock","Hilo","Kailua","Lahaina"],
+		"spyNames": ["William J. Donovan", "Virginia Hall", "Allen Dulles", "Moe Berg", "Elizabeth P. McIntosh", "Arthur J. Goldberg", "Carl Eifler", "Julia Child", "Ralph Bunche", "Josephine Baker"]
+	},	
 	
+	{
+		"name": "United Kingdom",
+		"leaderName": "Winston Churchill",
+		"adjective": ["British"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Protestantism
+		"personality": "Winston Churchill",
+
+		"startIntroPart1": "Well met, Sir Winston Churchill. Prime Minister of His Majesty's Government and the United Kingdom. Before you were elected as Prime Minister of the UK, you first had a remarkable career in the military. From India to South Africa, you had served in His Majesty's behalf and even made a name for yourself during the Second Boer War. However, the most remarkable work you ever did is your service during the 2nd World War, where alone, you led the people to stand bravely before the seemingly unstoppable might of the Nazis under Adolf Hitler, and managed to prevail in the end.",
+		"startIntroPart2": "Prime Minister, the people once more need a strong and charismatic leader that can lead Britain to greatness. Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You have been obstructing His Majesty and his people for so long. Ready yourself for war!",
+		"attacked": "We shall fight you in the beaches, we shall fight you on the landing grounds, we shall fight you in the hills, and WE will never surrender!",
+		"defeated": "The last of His Majesty's Army has fallen in your hands. I applaud you as much as I loathe you. May God Save the King.",
+		"introduction": "Good day to you. I am Winston Churchill, but that's 'Sir' Winston Churchill for you. It is a pleasure to make your acquiantance.",
+		
+		"neutralHello": "Can I help you?",
+		"neutralLetsHearIt": ["Let's hear it.", "I'm listening.", "Go on."],
+		"neutralNo": ["Not now!", "Of course not.", "No."],
+		"neutralYes": ["Fine.", "Alright then.", "Good."],
+		
+		"hateHello": "What do you want?",
+		"hateLetsHearIt": ["What?", "Spit it out!", "Speak!"],
+		"hateNo": ["What?","I didn't heard that well.","Absolutely not!"],
+		"hateYes": ["Very well.", "Fine then.", "Hmph! Fine."],
+		
+		"tradeRequest": "This deal can surely benefit both of our nations.",
+		"outerColor": [0,32,91],
+		"innerColor": [255,51,51],
+		
+		"uniqueName": "The British Commonwealth",
+		"uniques": ["[+50]% resources gifted by City-States",
+		"Military Units gifted from City-States start with [15] XP",
+		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+		"cities": ["London", "Birmingham", "Liverpool", "Manchester", "Glasgow", "Edinburgh", "Belfast", "Sheffield", "Bristol", "Leeds", "Newcastle upon Tyne", "Coventry", "Portsmouth", "Southampton", "Hull", "Nottingham", "Cardiff", "Dundee", "Swansea", "Derby", "Reading", "Milton Keynes", "Oxford", "Cambridge", "Leicester", "Aberdeen", "Dundee", "St. Albans", "Plymouth", "Luton", "Wigan", "Peterborough", "Southend-on-Sea", "Ipswich", "Bournemouth"],
+		"spyNames": ["Juan Pujol García", "Kim Philby", "Sir Hugh Trevor-Roper", "Eddie Chapman", "John Cairncross", "Gordon Waller", "Fritz Kolbe", "Bletchley Park Cryptanalysts", "William Fairbairn", "Maurice Buckmaster"]
+	},
 
 ]

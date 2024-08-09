@@ -1,5 +1,10 @@
 [	
 	{
+		"name": "[Supermarine Spitfire] ability",
+		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+	},
+
+	{
 		"name": "Commerce Raider",
 		"uniques": ["No movement cost to pillage","May heal outside of friendly territory"],
 	}

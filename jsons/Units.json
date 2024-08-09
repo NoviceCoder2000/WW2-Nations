@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Tiger",
+		"name": "Tiger I",
 		"unitType": "Armored",
 		"uniqueTo": "German Reich",
 		"replaces": "Panzer"
@@ -17,20 +17,20 @@
 	},
 	
 	{
-		"name": "Me 262",
-		"unitType": "Fighter",
+		"name": "Ju 87",
+		"unitType": "Bomber",
 		"uniqueTo": "German Reich",
-		"replaces": "Jet Fighter",
+		"replaces": "Bomber",
 		"movement": 1,
-		"strength": 80,
-		"rangedStrength": 80,
+		"strength": 70,
+		"rangedStrength": 70,
 		"range": 10,
-		"interceptRange": 10,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Fighter] units>"], //Also gains free air sweep promotion
-		"attackSound": "jetgun"
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Stealth Bomber",
+		"promotions": ["Bombardment I", "Ambush I",],
+		"attackSound": "bombing"
 	},
 	
 	{
@@ -68,7 +68,7 @@
 		"name": "B17",
 		"unitType": "Bomber",
 		"replaces": "Bomber",
-		"uniqueTo": "America", //USA
+		"uniqueTo": "United States of America",
 		"movement": 1,
 		"strength": 70,
 		"rangedStrength": 70,
@@ -82,17 +82,22 @@
 	},
 	
 	{
-		"name": "US Marines",
-		"unitType": "Gunpowder",
-		"uniqueTo": "United States of America"
-		"replaces": "Marine",
-		"movement": 2,
-		"strength": 75,
+		"name": "Supermarine Spitfire",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "United Kingdom",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 8,
+		"interceptRange": 8,
 		"cost": 375,
-		"requiredTech": "Pharmaceuticals",
-		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
-		"attackSound": "shot"
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["[Supermarine Spitfire] ability", "Interception I"],
+		"attackSound": "machinegun"
 	},
 	
 // Replaced Units
@@ -126,5 +131,5 @@
 		"promotion": "[Commerce Raider]",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","[+1] Movement <in [Foreign] tiles>"],
 		"attackSound": "torpedo" //Replace with another Imperial German unit
-	},
+	}
 ]
