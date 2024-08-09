@@ -3,8 +3,8 @@
 Tiger Tank - Tank by Manuel Dixken from NounProject.com
 https://thenounproject.com/icon/tank-960768/
 
-ME-262 - Fighter Jet by Juan Garces from NounProject.com
-https://thenounproject.com/icon/fighter-jet-59845/
+Stuka Icon:
+https://nothefort.org.uk/friend-or-foe/44_stuka_3.html
 
 - USSR
 T-34 - Tank by Evgeniy Kozachenko from NounProject.com
@@ -13,13 +13,26 @@ https://thenounproject.com/icon/tank-248489/
 BM-13 - Rocket Launcher by Souvik Bhattacharjee from NounProject.com
 https://thenounproject.com/icon/rocket-launcher-1746288/
 
-- USA
-Marine Trooper - Soldier by Rflor from NounProject.com
-https://thenounproject.com/icon/soldier-1705289/
+- UK
+Supermarine Spitfire
+https://thenounproject.com/icon/supermarine-spitfire-1112533/
 
 - Replaced Units:
 M1 Abrams - Tank by Danielle Foti from NounProject.com
 https://thenounproject.com/icon/tank-1215272/
+
+//Building Icons:
+- USA
+Assembly Plant
+https://thenounproject.com/icon/factory-6265231/
+
+- UK
+Naval Dockyard
+https://thenounproject.com/icon/shipyard-1839595/
+
+- Replacement
+Frontier Outpost
+https://thenounproject.com/icon/barn-4661770/
 
 //Nation Icons:
 USSR Icon - Bdeb
@@ -31,36 +44,47 @@ https://en.wikipedia.org/wiki/Balkenkreuz#:~:text=The%20Balkenkreuz%20(%20lit.,e
 American Icon - American Eagle by Raymond from NounProject.com
 https://thenounproject.com/icon/american-eagle-1053624/
 
+British Icon
+https://thenounproject.com/icon/union-jack-760041/
+
 
 //Music:
 German Reich: 
-Rise and Fall of Evil - War
+Rise and Fall of Evil - Hearts of Iron 2
 https://www.youtube.com/watch?v=J2kLczU742o&ab_channel=TheSixAtoms
 
-Luftwaffe Strikers Again - Peace
+Luftwaffe Strikers Again - Hearts of Iron 4
 https://www.youtube.com/watch?v=2bKvD-YE4i0&t=61s
 
 
 USSR:
-Russian Theme (COD: World at War)
+Russian Theme (Call of Duty: World at War)
 https://www.youtube.com/watch?v=gfW1bkPI8Kc
 
-Hearts of Iron 3 (Russian Suite Part 2)
-https://www.youtube.com/watch?v=0UskIUBMyHs
+Hearts of Iron 3 (Russian Suite Part 3)
+https://www.youtube.com/watch?v=pPSyExohQ8o
 
 
 United States of America :
-Battle Hymn of the Republic - John Philip Sousa
-https://www.youtube.com/watch?v=H0fl0ESCwPs&ab_channel=waldowatcherno298
+The Atlantic - Hearts of Iron 3
+https://www.youtube.com/watch?v=0fVl7Gbm7bo
 
-The Front - Andreas Waldetoft / Paradox Interactive
-https://www.youtube.com/watch?v=FpPGsCfJFWQ&ab_channel=TheSixAtoms
+Arsenal of Democracy - Hearts of Iron 4 (Man the Guns)
+https://www.youtube.com/watch?v=og2Fn0f8WJA&t=27s
+
+United Kingdom:
+Montgomery March - (Hearts of Iron 2)
+https://www.youtube.com/watch?v=9q0yX8NavKM
+
+Building Storm - Company of Heroes 1
+https://www.youtube.com/watch?v=CPNc460zGS8
 
 
 Main Theme:
+Hearts of Iron 3 Main Theme
 https://www.youtube.com/watch?v=ukPhrireqZI
 
-Ambience Themes:
+Ambience/Patriotic Marches Themes:
 Panzerlied - Kurt Wiehle / Queensland Symphony
 https://www.youtube.com/watch?v=twr2hgHGSHo&ab_channel=QueenslandSymphonyOrchestra-Topic
 
