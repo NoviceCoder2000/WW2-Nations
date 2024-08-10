@@ -43,4 +43,20 @@
 			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
+	
+	{
+		"name": "Dojo",
+		"replaces": "Armory",
+		"uniqueTo": "Japan",
+		"cost": "160",
+		"hurryCostModifier": 25,
+		"culture": 1
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"All newly-trained [Melee] units [in this city] receive the [Drill I] promotion",
+		"All newly-trained [Gunpowders] units [in this city] receive the [Drill I] promotion"
+		"Destroyed when the city is captured"],
+		"requiredTech": "Metal Casting"
+	},
 ]

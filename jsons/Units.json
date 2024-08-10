@@ -100,6 +100,46 @@
 		"attackSound": "machinegun"
 	},
 	
+	{
+		"name": "Zero",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Empire of Japan",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", 
+		"[+150]% Strength <vs [Bomber] units>", 
+		"[+150]% Strength <vs [Helicopter] units>",
+		"Comment [Can choose to perform kamikaze strikes on enemy units through promotions]"],
+		"promotions": ["[Zero] ability"],
+		"attackSound": "machinegun"
+	},
+	
+	{
+		"name": "Yamato-Class",
+		"unitType": "Ranged Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Empire of Japan",
+		"movement": 5,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["[+33]% Strength <vs [Melee Water] units>",
+		"[+33]% Strength <vs [Ranged Water] units>",
+		"[-50]% Strength <vs [Submarines] units> <when defending>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	
 // Replaced Units
 	
 	{

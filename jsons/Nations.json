@@ -152,5 +152,46 @@
 		"cities": ["London", "Birmingham", "Liverpool", "Manchester", "Glasgow", "Edinburgh", "Belfast", "Sheffield", "Bristol", "Leeds", "Newcastle upon Tyne", "Coventry", "Portsmouth", "Southampton", "Hull", "Nottingham", "Cardiff", "Dundee", "Swansea", "Derby", "Reading", "Milton Keynes", "Oxford", "Cambridge", "Leicester", "Aberdeen", "Dundee", "St. Albans", "Plymouth", "Luton", "Wigan", "Peterborough", "Southend-on-Sea", "Ipswich", "Bournemouth"],
 		"spyNames": ["Juan Pujol García", "Kim Philby", "Sir Hugh Trevor-Roper", "Eddie Chapman", "John Cairncross", "Gordon Waller", "Fritz Kolbe", "Bletchley Park Cryptanalysts", "William Fairbairn", "Maurice Buckmaster"]
 	},
+	
+	{
+		"name": "Empire of Japan",
+		"leaderName": "Hideki Tojo",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "State Shintoism",
+		"personality": "Hideki Tojo",
+
+		"startIntroPart1": "May heaven bestow a thousand blessings upon you, Your Excellency, Hideki Tojo. Japan is a nation of indomitable warriors and soldiers who carry out the spirit of Yamato. Over the past years, we have been continously expanding our Empire and continue to flourish. So much so, that the Koreans even joined our glorious empire as their emperor swore loyalty to none other than our great nation. However, even if we continue to prosper, many are jealous of our greatness, and it will be up to you to lead our people to glory.",
+		"startIntroPart2": "Your Excellency, Japan needs a great leader who can deliver the people through both hardships and glory. Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "The rebirth of our nation relies on this battle. Brace yourself for war!",
+		"attacked": "You have made a grave mistake by attacking us. We shall make you pay dearly for every inch of land you shall take then!",
+		"defeated": "May my ancestors and the Emperor forgive me, for I have been responsible for the situation in which Japan finds itself in.",
+		"introduction": "Greetings, I am Hideki Tojo. Prime Minister of the Japanese people and His Majesty, Emperor Hirohito. We welcome you to our lands.",
+		
+		"neutralHello": "Konnichiwa.",
+		"neutralLetsHearIt": ["What?", "What do you want?", "I'm listening."],
+		"neutralNo": ["Unacceptable.","Of course not.","No."],
+		"neutralYes": ["Of course.", "Yes", "Agreed"],
+		
+		"hateHello": "What is it do you want?",
+		"hateLetsHearIt": ["Say it!", "Speak!", "What is it!?"],
+		"hateNo": ["..."],
+		"hateYes": ["Fine.","Good.","This may work."],
+		
+		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
+		"outerColor": [255,255,255],
+		"innerColor": [220,20,60],	
+		
+		"uniqueName": "Tenko Banzai!",
+		"uniqueText": "[+10]% Strength for [Land] units when attacking. Additional +10% combat bonus when the same unit is attacking while wounded\n-10% Strength for Land units when defending\nNo damage penalty for wounded units <for [non-[Air]] units>"
+		"uniques": ["[+10]% Strength <for [Land] units> <when attacking>", 
+		"[+10]% Strength <for [Land] units> <when attacking> <when [Wounded]>", 
+		"[-10]% Strength <for [Land] units> <when defending>",
+		"No damage penalty for wounded units <for [non-[Air]] units>"],
+		"cities": ["Tokyo", "Osaka", "Yokohama", "Nagoya", "Hiroshima", "Nagasaki", "Kobe", "Sapporo", "Kyoto", "Fukuoka", "Sendai", "Kumamoto", "Gifu", "Shizuoka", "Utsunomiya", "Fukui", "Kanazawa", "Okayama", "Takamatsu", "Matsumoto", "Hamamatsu", "Ube", "Kokura", "Keijō", "Pusan", "Pjŏngyang", "Wonsan", "Daegu", "Kōjū", "Zenjū", "Incheon", "Keijū", "Antō", "Asan", "Reisu", "Tōei", "Saishu", "Ryūzan", "Daitō", "Kōryū"]
+		"spyNames": ["Takeo Yoshikawa", "Yoshikazu Kato", "Tadao Watanabe", "Hirō Onoda", "Mitsuo Fuchida", "Koichi Nishi", "Seiichi Tsukamoto", "Ryoichi Sasakawa", "Kenji Doihara", "Tadao Saito"]
+	},
 
 ]

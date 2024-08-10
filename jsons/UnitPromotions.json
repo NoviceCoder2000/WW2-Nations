@@ -5,6 +5,16 @@
 	},
 
 	{
+		"name": "Kamikaze!",
+		"prerequisites": ["[Zero] ability"],
+		"unitTypes": ["Fighter"],
+		"uniques": ["[+150]% Strength <vs [Water] units>",
+		"[+100]% Strength <vs [Armored] units>",
+		"Self-destructs when attacking"]
+	},
+
+//Substitute promotions
+	{
 		"name": "Commerce Raider",
 		"uniques": ["No movement cost to pillage","May heal outside of friendly territory"],
 	}
