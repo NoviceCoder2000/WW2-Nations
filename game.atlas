@@ -1,47 +1,68 @@
 
 game.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Assembly Plant
   rotate: false
-  xy: 1036, 275
+  xy: 520, 533
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cafe
+  rotate: false
+  xy: 986, 791
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dojo
   rotate: false
-  xy: 1244, 275
+  xy: 1402, 791
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Frontier Outpost
   rotate: false
-  xy: 433, 17
+  xy: 1610, 791
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Naval Dockyard
   rotate: false
-  xy: 641, 17
+  xy: 470, 275
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LeaderIcons/Adolf Hitler
   rotate: false
-  xy: 4, 225
+  xy: 4, 741
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Benito Mussolini
+  rotate: false
+  xy: 4, 483
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Charles de Gaulle
+  rotate: false
+  xy: 262, 741
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Franklin D. Roosevelt
   rotate: false
-  xy: 262, 225
+  xy: 4, 225
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
@@ -55,147 +76,182 @@ LeaderIcons/Hideki Tojo
   index: -1
 LeaderIcons/Joseph Stalin
   rotate: false
-  xy: 520, 225
+  xy: 262, 483
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 LeaderIcons/Winston Churchill
   rotate: false
-  xy: 778, 225
+  xy: 520, 741
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
 NationIcons/Empire of Japan
   rotate: false
-  xy: 1868, 375
+  xy: 678, 217
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/French Republic
+  rotate: false
+  xy: 678, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/German Reich
   rotate: false
-  xy: 1265, 167
+  xy: 786, 217
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kingdom of Italy
+  rotate: false
+  xy: 786, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Soviet Union
   rotate: false
-  xy: 1481, 167
+  xy: 936, 575
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United Kingdom
   rotate: false
-  xy: 1868, 267
+  xy: 1152, 683
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United States of America
   rotate: false
-  xy: 1265, 59
+  xy: 1152, 575
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Positive Christianity
   rotate: false
-  xy: 1373, 167
+  xy: 936, 683
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/State Shintoism
   rotate: false
-  xy: 1589, 167
+  xy: 1044, 683
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/BM-13
   rotate: false
-  xy: 1057, 27
+  xy: 678, 69
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/T-34
   rotate: false
-  xy: 1373, 127
+  xy: 886, 493
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tiger
   rotate: false
-  xy: 1976, 385
+  xy: 778, 751
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tiger I
   rotate: false
-  xy: 1805, 203
+  xy: 936, 539
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Yamato-Class
   rotate: false
-  xy: 1805, 239
+  xy: 520, 497
   size: 34, 28
   orig: 34, 28
   offset: 0, 0
   index: -1
+UnitIcons/Alpini
+  rotate: false
+  xy: 262, 275
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/BM-13
   rotate: false
-  xy: 225, 17
+  xy: 778, 791
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Char B1
+  rotate: false
+  xy: 1194, 791
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Ju 87
   rotate: false
-  xy: 1452, 275
+  xy: 1818, 791
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Macchi C.202 Folgore
+  rotate: false
+  xy: 262, 67
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Supermarine Spitfire
   rotate: false
-  xy: 1660, 275
+  xy: 470, 67
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/T-34
   rotate: false
-  xy: 849, 17
+  xy: 728, 533
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Tiger I
   rotate: false
-  xy: 1697, 167
+  xy: 1044, 575
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Yamato-Class
   rotate: false
-  xy: 1057, 67
+  xy: 678, 325
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Kamikaze!
   rotate: false
-  xy: 1976, 425
+  xy: 1260, 733
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
