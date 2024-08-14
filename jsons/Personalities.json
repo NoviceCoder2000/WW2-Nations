@@ -34,7 +34,7 @@
           "Autocracy": 12,
           "Order": 1
       }
- }
+ },
  
  {
       "name": "Joseph Stalin",
@@ -71,7 +71,7 @@
           "Autocracy": 1,
           "Order": 12
       }
- }
+},
 
  {
       "name": "Franklin D. Roosevelt",
@@ -108,9 +108,9 @@
           "Autocracy": 1,
           "Order": 1
       }
- }
+},
 
- {
+{
       "name": "Winston Churchill",
 	  "preferredVictoryType": "Diplomatic",
      
@@ -145,7 +145,44 @@
           "Autocracy": 2,
           "Order": 2
       }
- }
+},
+
+{
+      "name": "Charles de Gaulle",
+	  "preferredVictoryType": "Cultural",
+     
+	 // Stats focused personalities	  
+      "production": 5,
+      "food": 6,
+      "gold": 4,
+      "science": 8,	  
+      "culture": 8,
+      "happiness": 7,
+      "faith": 7,
+	  
+      // Behavour focused personalities
+      "military": 5,
+      "aggressive": 6,
+      "declareWar": 5,
+      "commerce": 9,
+      "diplomacy": 4,
+      "loyal": 9,
+      "expansion": 7,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 9,
+          "Liberty": 6,
+          "Honor": 3,
+          "Commerce": 4,
+          "Patronage": 8,
+          "Piety": 3,
+          "Rationalism": 8,
+          "Freedom": 11,
+          "Autocracy": 1,
+          "Order": 1
+      }
+},
  
   {
       "name": "Hideki Tojo",
@@ -182,6 +219,43 @@
           "Autocracy": 11,
           "Order": 1
       }
- }
+},
+ 
+{
+      "name": "Benito Mussolini",
+	  "preferredVictoryType": "Domination",
+     
+	 // Stats focused personalities	  
+      "production": 5,
+      "food": 5,
+      "gold": 6,
+      "science": 7,	  
+      "culture": 7,
+      "happiness": 5,
+      "faith": 4,
+	  
+      // Behavour focused personalities
+      "military": 7,
+      "aggressive": 11,
+      "declareWar": 10,
+      "commerce": 8,
+      "diplomacy": 5,
+      "loyal": 8,
+      "expansion": 10,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 4,
+          "Liberty": 8,
+          "Honor": 8,
+          "Commerce": 8,
+          "Patronage": 4,
+          "Piety": 6,
+          "Rationalism": 8,
+          "Freedom": 3,
+          "Autocracy": 11,
+          "Order": 1
+      }
+}
 
 ]
