@@ -31,6 +31,21 @@
 		"requiredTech": "Navigation"
 	},
 	
+	{
+		"name": "Cafe",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "French Republic",
+		"culture": 3,
+		"food": 2,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["[+50]% Yield from every [Great Improvement] <in this city>",
+		"[+25]% Great Person generation [in this city]"
+		"Destroyed when the city is captured"] //Tourism in BNW
+	},
+	
 	//Substitute Buildings
 	{
 		"name": "Frontier Outpost",

@@ -3,6 +3,13 @@
 		"name": "[Supermarine Spitfire] ability",
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
+	
+	{
+		"name": "[Alpini] ability",
+		"uniques": ["[+15]% Strength <when fighting in [Hill] tiles>",
+		"Double movement in [Hill]",
+		"Can pass through impassable tiles"]
+	},
 
 	{
 		"name": "Kamikaze!",

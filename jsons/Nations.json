@@ -25,13 +25,13 @@
 		"hateNo": ["No!","That is outrageous!","Never!"],
 		"hateYes": ["Fine!","Very well then.","This may work."],
 		
-		"tradeRequest": "I believe this deal can be proved to be beneficial for all of us.",
+		"tradeRequest": "You better accept this deal before I change my mind.",
 		"outerColor": [255,25,25],
 		"innerColor": [54,54,54],	
 		
 		"uniqueName": "Blitzkrieg",
 		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [Land] units> <during a Golden Age>","[+1] Movement <for [Land] units> <during a Golden Age>"],
-		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
+		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
 		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
 	},
 	
@@ -68,7 +68,7 @@
 		
 		"uniqueName": "War of The People",
 		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[-25]% Gold cost of upgrading","[+15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
-		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"]
+		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"],
 		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
 	},
 
@@ -141,7 +141,7 @@
 		"hateNo": ["What?","I didn't heard that well.","Absolutely not!"],
 		"hateYes": ["Very well.", "Fine then.", "Hmph! Fine."],
 		
-		"tradeRequest": "This deal can surely benefit both of our nations.",
+		"tradeRequest": "I'm sure this is better off for both you and me.",
 		"outerColor": [0,32,91],
 		"innerColor": [255,51,51],
 		
@@ -151,6 +151,44 @@
 		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
 		"cities": ["London", "Birmingham", "Liverpool", "Manchester", "Glasgow", "Edinburgh", "Belfast", "Sheffield", "Bristol", "Leeds", "Newcastle upon Tyne", "Coventry", "Portsmouth", "Southampton", "Hull", "Nottingham", "Cardiff", "Dundee", "Swansea", "Derby", "Reading", "Milton Keynes", "Oxford", "Cambridge", "Leicester", "Aberdeen", "Dundee", "St. Albans", "Plymouth", "Luton", "Wigan", "Peterborough", "Southend-on-Sea", "Ipswich", "Bournemouth"],
 		"spyNames": ["Juan Pujol García", "Kim Philby", "Sir Hugh Trevor-Roper", "Eddie Chapman", "John Cairncross", "Gordon Waller", "Fritz Kolbe", "Bletchley Park Cryptanalysts", "William Fairbairn", "Maurice Buckmaster"]
+	},
+	
+	{
+		"name": "French Republic",
+		"leaderName": "Charles de Gaulle",
+		"adjective": ["French"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity", //Catholicism
+		"personality": "Charles de Gaulle",
+
+		"startIntroPart1": "Greetings to you President Charles de Gaulle, 18th President of France and founder of the 5th French Republic. Years, prior your presidency, France was subject to many types of trials, one of which was the brutal occupation it has to endure under the Nazis led by Adolf Hitler. Conquering France in just a month of resistance. This was a humiliating defeat for our nation, however, under your guidance, you were able to setup a strong government-in-exile, able to rally many patriotic French to eventually fight back the Nazis and liberate our homeland.",
+		"startIntroPart2": "However, this has left many deep scars for France and her people, and the people once more needed a strong rallying figure such as yourself to lead France through this tough trials. Mr. President, are you ready to answer the cries of our people? Can you restore France to her former glory? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Your existence is an insult to all civilized people and nations. You must be destroyed!",
+		"attacked": "You do not scare us with cheap threats! Come and face the resolve of the French people, coward!",
+		"defeated": "How tragic, for a nation which glorifies itself with the values of liberty and freedom only to befell to the likes of you. Truly, a tragedy!",
+		"introduction": "Bonjour, I am Charles de Gaulle, 18th President of France and founder of her Fifth Republic. If you value liberty and equality, then I welcome such like-minded individual!",
+		
+		"neutralHello": "Saluations.",
+		"neutralLetsHearIt": ["What is it?", "What do you want?", "Tell me."],
+		"neutralNo": ["Non.", "No.", "I cannot agree."],
+		"neutralYes": ["I can agree.", "This is good.", "Very well."],
+		
+		"hateHello": "Why are you hear!?",
+		"hateLetsHearIt": ["Spit it out!", "Say it!", "What?"],
+		"hateNo": ["Non!", "Never!", "I will never agree to this."],
+		"hateYes": ["Alright.", "Fine!"],
+		
+		"tradeRequest": "I believe this will benefit both your nation and France.",
+		"outerColor": [49,140,231],
+		"innerColor": [220,20,60],	
+		
+		"uniqueName": "La Résistance",
+		"uniques": ["New spies start with [2] level(s) <upon entering the [Modern era]>",
+		"[+15]% Strength <for [Land] units> <when fighting in [Friendly] tiles>"
+		"[+15]% Strength decreasing with distance from the capital <for [Land] units>",],
+		"cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Bordeaux", "Lille", "Nantes", "Strasbourg", "Rennes", "Le Havre", "Grenoble", "Dijon", "Aix-en-Provence", "Clermont-Ferrand", "Angers", "La Rochelle", "Tours", "Le Mans", "Perpignan", "Metz", "Amiens", "Lorient", "Rouen", "Nîmes", "Troyes", "Pau", "Valenciennes", "Chalon-sur-Saône", "Besançon", "Béziers", "Sète", "Vichy", "Moulins", "Aurillac", "La Roche-sur-Yon", "Saint-Étienne", "Châteauroux", "Mende", "Arras"],
+		"spyNames": ["Colonel Passy", "Jean Moulin", "Lucie Aubrac", "Henri Frenay", "Berthe Saffroy", "Marie-Madeleine Fourcade", "Pierre Brossolette", "André Girard", "Claude Bourdet", "Yvonne Oddon"]
 	},
 	
 	{
@@ -185,13 +223,51 @@
 		"innerColor": [220,20,60],	
 		
 		"uniqueName": "Tenko Banzai!",
-		"uniqueText": "[+10]% Strength for [Land] units when attacking. Additional +10% combat bonus when the same unit is attacking while wounded\n-10% Strength for Land units when defending\nNo damage penalty for wounded units <for [non-[Air]] units>"
+		"uniqueText": "[+10]% Strength for [Land] units when attacking. Additional +10% combat bonus when the same unit is attacking while wounded\n-10% Strength for Land units when defending\nNo damage penalty for wounded units <for [non-[Air]] units>",
 		"uniques": ["[+10]% Strength <for [Land] units> <when attacking>", 
 		"[+10]% Strength <for [Land] units> <when attacking> <when [Wounded]>", 
 		"[-10]% Strength <for [Land] units> <when defending>",
 		"No damage penalty for wounded units <for [non-[Air]] units>"],
-		"cities": ["Tokyo", "Osaka", "Yokohama", "Nagoya", "Hiroshima", "Nagasaki", "Kobe", "Sapporo", "Kyoto", "Fukuoka", "Sendai", "Kumamoto", "Gifu", "Shizuoka", "Utsunomiya", "Fukui", "Kanazawa", "Okayama", "Takamatsu", "Matsumoto", "Hamamatsu", "Ube", "Kokura", "Keijō", "Pusan", "Pjŏngyang", "Wonsan", "Daegu", "Kōjū", "Zenjū", "Incheon", "Keijū", "Antō", "Asan", "Reisu", "Tōei", "Saishu", "Ryūzan", "Daitō", "Kōryū"]
+		"cities": ["Tokyo", "Osaka", "Yokohama", "Nagoya", "Hiroshima", "Nagasaki", "Kobe", "Sapporo", "Kyoto", "Fukuoka", "Sendai", "Kumamoto", "Gifu", "Shizuoka", "Utsunomiya", "Fukui", "Kanazawa", "Okayama", "Takamatsu", "Matsumoto", "Hamamatsu", "Ube", "Kokura", "Keijō", "Pusan", "Pjŏngyang", "Wonsan", "Daegu", "Kōjū", "Zenjū", "Incheon", "Keijū", "Antō", "Asan", "Reisu", "Tōei", "Saishu", "Ryūzan", "Daitō", "Kōryū"],
 		"spyNames": ["Takeo Yoshikawa", "Yoshikazu Kato", "Tadao Watanabe", "Hirō Onoda", "Mitsuo Fuchida", "Koichi Nishi", "Seiichi Tsukamoto", "Ryoichi Sasakawa", "Kenji Doihara", "Tadao Saito"]
 	},
+	
+	{
+		"name": "Kingdom of Italy",
+		"leaderName": "Benito Mussolini",
+		"adjective": ["Italian"],
+		"startBias": ["Avoid [Tundra]", "Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Benito Mussolini",
+
+		"startIntroPart1": "Salve Benito Mussolini, Il Duce and leader of the Italian people! Compared to the other European great powers of our time, Italy is a young and fledgeling nation. We have participated greatly within the Great War, were have went out and sent our men to fight against our old enemies: The Austro-Hungarian Empire. However, the bravery of our men were all for naught for we are only to be betrayed by our allies who gave false promises to help Italy became a greater power in the world stage, and only gave us a meager portion of what they had promised to us. This treachery however, is not forgiven nor forgotten! ",
+		"startIntroPart2": "Il Duce, it is time we make the treacherous Britons and French learn to bow before Italian supremacy and restore the might of our Roman ancestors and make them proud. Can you prove to the world the Italy is not just a fledgeling nation? Can you restore Romanità revive Rome? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "Let it be known that Rome shall be restored to its former glory, and your nation will be just our stepping stone!",
+		"attacked": "The glorious Italian nation shall remain steadfast against your pitiful attempts to intimidate us!",
+		"defeated": "It is better this way. Better to live as a lion for a day, than a hundred years as a sheep!",
+		"introduction": "Salve! I am Benito Mussolini, Il Duce of Italy and the future restorer of the Roman glory. What can I do for you today?",
+		
+		"neutralHello": "Salve.",
+		"neutralLetsHearIt": ["Tell me then.", "Yes?", "What is it?"],
+		"neutralNo": ["No", "Not today.", "It's not enough."],
+		"neutralYes": ["Sì.", "Of course.", "A glorious offer."],
+		
+		"hateHello": "How nice to see you... again.",
+		"hateLetsHearIt": ["What do you want!?", "What!?", "Say it!"],
+		"hateNo": ["What?", "You're joking right?", "Absolutely not!"],
+		"hateYes": ["Fine", "Very well.", "Reasonable."],
+		
+		"tradeRequest": "Let us proseper together by accepting this deal!",
+		"outerColor": [0,128,0],
+		"innerColor": [255,248,240],	
+		
+		"uniqueName": "Romanità",
+		"uniques": ["[+1 Production] [in all cities] <in cities connected to the capital>",
+		"[+15]% Production towards any buildings that already exist in the Capital"],
+		"cities": ["Rome", "Milan", "Naples", "Turin", "Genoa", "Florence", "Bologna", "Trieste", "Palermo", "Verona", "Cagliari", "Catania", "Livorno", "Modena", "Parma", "Pisa", "Bari", "Siena", "Vicenza", "Ancona", "Arezzo", "Rimini", "La Spezia", "Reggio Emilia", "Sassari", "Bolzano", "Perugia", "Taranto", "Foggia", "Terni", "Forlí", "Brescia", "Trapani", "Catanzaro", "Aosta", "Gorizia", "L'Aquila", "Pordenone", "Sondrio", "La Maddalena", "Montecatini Terme", "Oristano", "Ragusa", "Massa", "Cosenza"],
+		"spyNames": ["Gianfranco Mingozzi", "Alfredo P. Sordini", "Luigi Ferraro", "Giuseppe Lazzaro", "Piero Orsi", "Vittorio Mussolini", "Gino Cappa", "Alberto Ronchetti", "Francesco Ferraresi", "Marcello Carli"]
+	}
 
 ]

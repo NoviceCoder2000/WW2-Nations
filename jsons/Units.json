@@ -101,6 +101,24 @@
 	},
 	
 	{
+		"name": "Char B1",
+		"unitType": "Armored",
+		"uniqueTo": "French Republic",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking",
+		"[+33]% Strength <when defending>"
+		"No defensive terrain bonus"],
+		"promotions": ["Shock I"]
+		"attackSound": "tankshot"
+	},
+	
+	{
 		"name": "Zero",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
@@ -138,6 +156,40 @@
 		"[-50]% Strength <vs [Submarines] units> <when defending>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
+	},
+	
+	{
+		"name": "Alpini",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "Kingdom of Italy",
+		"movement": 2,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["[Alpini] ability"],
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Macchi C.202 Folgore",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Kingdom of Italy",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", 
+		"[+150]% Strength <vs [Bomber] units>", 
+		"[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["Dogfighting I", "Operational Range"],
+		"attackSound": "machinegun"
 	},
 	
 // Replaced Units
