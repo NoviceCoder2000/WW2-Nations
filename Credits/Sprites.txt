@@ -1,2 +1,2 @@
-ReallyBasicName
+@ReallyBasicName (Discord)
 - Yamato-Class Battleship
