@@ -1,8 +1,5 @@
 //Unit Icons:
-- German Reich
-Tiger Tank - Tank by Manuel Dixken from NounProject.com
-https://thenounproject.com/icon/tank-960768/
-
+- Germany
 Stuka Icon:
 https://nothefort.org.uk/friend-or-foe/44_stuka_3.html
 
@@ -15,8 +12,24 @@ https://thenounproject.com/icon/rocket-launcher-1746288/
 
 - UK
 Supermarine Spitfire
-https://thenounproject.com/icon/supermarine-spitfire-1112533/
+https://thenounproject.com/icon/wwii-airplane-308085/
+
+- France
+Char B1
+https://thenounproject.com/icon/tank-4932416/
 
 - Empire of Japan
 Yamato Class
 https://thenounproject.com/icon/battleship-4933085/
+
+- Kingdom of Italy
+Macchi Folgore
+https://thenounproject.com/icon/fighter-aircraft-3572097/
+
+Alpini
+https://thenounproject.com/icon/tyrolean-hat-3785811/
+
+//To be Used
+Czechkoslovakia
+Pz. 38
+https://thenounproject.com/icon/light-tank-3572195/
