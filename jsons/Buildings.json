@@ -46,6 +46,20 @@
 		"Destroyed when the city is captured"] //Tourism in BNW
 	},
 	
+	{
+		"name": "Centrum Wyszkolenia",
+		"replaces": "Military Academy",
+		"uniqueTo": "Republic of Poland",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"New [Gunpowder] units start with [15] Experience [in this city]"		
+		"[+2 Culture, +2 Production] [in this city] <with a garrison>",
+		"Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	
 	//Substitute Buildings
 	{
 		"name": "Frontier Outpost",

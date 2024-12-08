@@ -19,6 +19,12 @@
 		"[+100]% Strength <vs [Armored] units>",
 		"Self-destructs when attacking"]
 	},
+	
+	{
+		"name": "[Black Brigade Infantry] ability",
+		"uniques": ["[+15]% Strength <when adjacent to a [Armored] unit>",
+		"[+10]% Strength bonus for [Armored] units within [2] tiles"]
+	},
 
 //Substitute promotions
 	{

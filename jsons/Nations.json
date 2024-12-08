@@ -1,77 +1,5 @@
 [
-	{
-		"name": "German Reich",
-		"leaderName": "Adolf Hitler",
-		"adjective": ["German"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Positive Christianity",
-		"personality": "Adolf Hitler",
-
-		"startIntroPart1": "Heil mein Führer, most brilliant leader of the Reich and the German people. You are the successor to the Third Reich; the empire of the illustrious German race. Germany was once a great nation, but after the humiliating defeat of the First World War, Germany has turned into nothing but a pushover to the Entente within the west, and the Communists from the East, inflation is the highest in history, and unrest and riots are everywhere. But through you, the Fatherland have risen from the ashes of our past, and made Germany a great power again in a span of a decade. Political unrest has died down, economy has boomed to competence, the people is satisfied within your rule.",
-		"startIntroPart2": "O' Great leader of the Reich, the time has come, our neighbors are envious and the road to the 'Endsieg' awaits, history is now to be decided. Can you bring the greatness that the people waited for so long? can you build an everlasting and powerful Reich? Can you build a civilization that can withstand the test of time?",
-		
-		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
-		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
-		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would prefer to blow my brains out.",
-		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
-		
-		"neutralHello": "Heil.",
-		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
-		"neutralNo": ["No.","Certainly not.","Of course not!"],
-		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
-		
-		"hateHello": "Speak!",
-		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
-		"hateNo": ["No!","That is outrageous!","Never!"],
-		"hateYes": ["Fine!","Very well then.","This may work."],
-		
-		"tradeRequest": "You better accept this deal before I change my mind.",
-		"outerColor": [255,25,25],
-		"innerColor": [54,54,54],	
-		
-		"uniqueName": "Blitzkrieg",
-		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [Land] units> <during a Golden Age>","[+1] Movement <for [Land] units> <during a Golden Age>"],
-		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
-		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
-	},
-	
-	{
-		"name": "Soviet Union",
-		"leaderName": "Joseph Stalin",
-		"adjective": ["Soviet"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Christianity", //Orthodox in BNW
-		"personality": "Joseph Stalin",
-
-		"startIntroPart1": "Salutations Comrade Stalin, Vozhd of the Soviet Union and the great successor of Lenin, the father of our country! It is no secret that the country was made by blood and sacrifice, such act will forever be remembered within our great revolution of the 1917, and to this day, you are still remembered to fight alongside Lenin as one of his generals and liberated our motherland from the imperialist Tsarist Russia. Although our early years as a nation was difficult, we have managed to persevere and by 1945, 23 years after our nation was founded, we were then considered as a global superpower, thanks to our collective efforts as a nation.",
-		"startIntroPart2": "Comrade! The time has come, the world must be liberated from such imperialistic ideals, the workers call your name. Can you build a utopia free from imperialism? Can you build a civilization that can withstand the test of time?",
-		
-		"declaringWar": "The laborers has called, we must liberate the people from the capitalist pigs such as you!",
-		"attacked": "We do not like taking any foreign territory, but we shall never give up even a single grain of our lands!",
-		"defeated": "Imperilaist dog! You may have crushed the Soviet Union now, but you will never destroy the spirit of the revolution!",
-		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
-		
-		"neutralHello": "Hello.",
-		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
-		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
-		"neutralYes": ["Good.","Very well.","This will do."],
-		
-		"hateHello": "What do you want!?",
-		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
-		"hateNo": ["Never!","Excuse me?","You are joking right?"],
-		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
-		
-		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
-		"outerColor": [179, 0, 0],
-		"innerColor": [255,255,0],
-		
-		"uniqueName": "War of The People",
-		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[-25]% Gold cost of upgrading","[+15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
-		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"],
-		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
-	},
-
+	//Allies
 	{
 		"name": "United States of America",
 		"leaderName": "Franklin D. Roosevelt",
@@ -180,8 +108,8 @@
 		"hateYes": ["Alright.", "Fine!"],
 		
 		"tradeRequest": "I believe this will benefit both your nation and France.",
-		"outerColor": [49,140,231],
-		"innerColor": [220,20,60],	
+		"outerColor": [100,168,237],
+		"innerColor": [165,15,45],	
 		
 		"uniqueName": "La Résistance",
 		"uniques": ["New spies start with [2] level(s) <upon entering the [Modern era]>",
@@ -189,6 +117,116 @@
 		"[+15]% Strength decreasing with distance from the capital <for [Land] units>",],
 		"cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Bordeaux", "Lille", "Nantes", "Strasbourg", "Rennes", "Le Havre", "Grenoble", "Dijon", "Aix-en-Provence", "Clermont-Ferrand", "Angers", "La Rochelle", "Tours", "Le Mans", "Perpignan", "Metz", "Amiens", "Lorient", "Rouen", "Nîmes", "Troyes", "Pau", "Valenciennes", "Chalon-sur-Saône", "Besançon", "Béziers", "Sète", "Vichy", "Moulins", "Aurillac", "La Roche-sur-Yon", "Saint-Étienne", "Châteauroux", "Mende", "Arras"],
 		"spyNames": ["Colonel Passy", "Jean Moulin", "Lucie Aubrac", "Henri Frenay", "Berthe Saffroy", "Marie-Madeleine Fourcade", "Pierre Brossolette", "André Girard", "Claude Bourdet", "Yvonne Oddon"]
+	},
+	
+	{
+		"name": "Republic of Poland",
+		"leaderName": "Władysław Sikorski",
+		"adjective": ["Polish"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Catholicism
+		"personality": "Władysław Sikorski",
+
+		"startIntroPart1": "May God bless you, honorable leader, Władysław Sikorski, Prime Minister and General of the noble Polish people! Poland is a young nation, trifled with troubles from both within and outside of its borders. It is a nation, not born through peace and understanding, but baptized by a trial of fire, resiting the enroaching Bolsheviks in the East and securing its freedom from the miraculous victory at Vistula. However, despite its victory, Poland can never be truly be safe, it's land, victims of hundreds of years of oppression from its neighbors, they are envious of its success and despises its exisistence, seeking to subdue its people once more.",
+		"startIntroPart2": "Great Leader, your wisdom shall be needed once more. The dark clouds of war lurks within its borders and only you can save it from disaster. Can you resist those who seek to enslave Poland? Can you protect the Fatherland from our imperialistic neighbors? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "Your existence threatens the very safety of Poland and her people. For that, prepare to be destroyed!",
+		"attacked": "You coward! Your betrayal of the Polish people shall never be forgotten!",
+		"defeated": "No amount of invasion, no amount of conquest shall fully subjugate the spirit of freedom of Poland! Polska jeszcze nie zaginęła!",
+		"introduction": "Greetings, I am Władysław Sikorski. Prime Minsiter of Poland and its leader. What brought you to this place stranger?",
+		
+		"neutralHello": "What brings you here?",	
+		"hateHello": "I was hoping I'd never see you again...",
+
+		
+		"tradeRequest": "This treaty shall benefit both of our interests.",
+		"outerColor": [220,20,60],
+		"innerColor": [255,255,255],	
+		
+		"uniqueName": "Dąbrowski's Mazurka!",
+		"uniques": ["[+10]% [Culture] [in all cities] <when at war>",
+		"[+10]% Strength <when fighting units from a Civilization with more Cities than you> <in [your] tiles>"
+		"All healing effects doubled <in [your] tiles> <when at war>"],
+		"cities": ["Warsaw", "Kraków", "Lwów", "Poznań", "Wilno", "Łódź", "Gdańsk", "Katowice", "Częstochowa", "Toruń", "Bydgoszcz", "Radom", "Sosnowiec", "Białystok", "Kielce", "Lublin", "Gdynia", "Cieszyn", "Zamość", "Tarnów", "Rzeszów", "Przemyśl", "Piotrków Trybunalski", "Włocławek", "Grudziądz", "Elbląg", "Chełm", "Płock", "Olsztyn", "Słupsk", "Koszalin", "Świętochłowice", "Chorzów", "Opole", "Legnica", "Wałbrzych", "Kalisz", "Leszno", "Nowy Sącz", "Łomża", "Ostrołęka", "Siedlce", "Tarnobrzeg", "Żyrardów", "Skierniewice", "Starogard Gdański", "Mielec", "Inowrocław", "Gniezno", "Racibórz"]
+		"spyNames": ["Jan Karski", "Krystyna Skarbek", "Stefan Rowecki", "Witold Pilecki", "Zofia Kossak-Szczucka", "Eugeniusz Świderski", "Emil August Fieldorf", "Antoni Chruściel", "Michał Karaszewicz-Tokarzewski", "Tadeusz Pełczyński"]
+	},
+	
+	
+	//Communist Bloc
+	
+	{
+		"name": "Soviet Union",
+		"leaderName": "Joseph Stalin",
+		"adjective": ["Soviet"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Orthodox in BNW
+		"personality": "Joseph Stalin",
+
+		"startIntroPart1": "Salutations Comrade Stalin, Vozhd of the Soviet Union and the great successor of Lenin, the father of our country! It is no secret that the country was made by blood and sacrifice, such act will forever be remembered within our great revolution of the 1917, and to this day, you are still remembered to fight alongside Lenin as one of his generals and liberated our motherland from the imperialist Tsarist Russia. Although our early years as a nation was difficult, we have managed to persevere and by 1945, 23 years after our nation was founded, we were then considered as a global superpower, thanks to our collective efforts as a nation.",
+		"startIntroPart2": "Comrade! The time has come, the world must be liberated from such imperialistic ideals, the workers call your name. Can you build a utopia free from imperialism? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "The laborers has called, we must liberate the people from the capitalist pigs such as you!",
+		"attacked": "We do not like taking any foreign territory, but we shall never give up even a single grain of our lands!",
+		"defeated": "Imperilaist dog! You may have crushed the Soviet Union now, but you will never destroy the spirit of the revolution!",
+		"introduction": "I do not have time to talk with capitalist monsters, but if you are a friend of the workers, then you can be my friend as well.",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["Do not make me wait then.","I am listening.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","That is unacceptable."],
+		"neutralYes": ["Good.","Very well.","This will do."],
+		
+		"hateHello": "What do you want!?",
+		"hateLetsHearIt": ["Spit it out!","What?","Out with it!"],
+		"hateNo": ["Never!","Excuse me?","You are joking right?"],
+		"hateYes": ["I cannot refuse.","Good enough.","Very well then."],
+		
+		"tradeRequest": "I suggest you accept this offer for I do not trade with outsiders that often.",
+		"outerColor": [179, 0, 0],
+		"innerColor": [255,255,0],
+		
+		"uniqueName": "War of The People",
+		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[-25]% Gold cost of upgrading","[+15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
+		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"],
+		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
+	},
+
+	//Axis Powers
+
+	{
+		"name": "German Reich",
+		"leaderName": "Adolf Hitler",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Positive Christianity",
+		"personality": "Adolf Hitler",
+
+		"startIntroPart1": "Heil mein Führer, most brilliant leader of the Reich and the German people. You are the successor to the Third Reich; the empire of the illustrious German race. Germany was once a great nation, but after the humiliating defeat of the First World War, Germany has turned into nothing but a pushover to the Entente within the west, and the Communists from the East, inflation is the highest in history, and unrest and riots are everywhere. But through you, the Fatherland have risen from the ashes of our past, and made Germany a great power again in a span of a decade. Political unrest has died down, economy has boomed to competence, the people is satisfied within your rule.",
+		"startIntroPart2": "O' Great leader of the Reich, the time has come, our neighbors are envious and the road to the 'Endsieg' awaits, history is now to be decided. Can you bring the greatness that the people waited for so long? can you build an everlasting and powerful Reich? Can you build a civilization that can withstand the test of time?",
+		
+		"declaringWar": "You are nothing but a nuisance to this world! You must be destroyed!",
+		"attacked": "Foolishness! My Wehrmacht is invincible! Do you really think your 'army' can overtake the Reich?",
+		"defeated": "The last bastion of the Reich has fallen to your hands, well done. But if you think I will surrender to you, I would prefer to blow my brains out.",
+		"introduction": "Welcome, I am Adolf Hitler, Führer of the German People. Now, let us discuss regarding the lands that you have mistook to be yours.",
+		
+		"neutralHello": "Heil.",
+		"neutralLetsHearIt": ["Let us hear it then.","Pry tell then.","Go ahead."],
+		"neutralNo": ["No.","Certainly not.","Of course not!"],
+		"neutralYes": ["That is an excellent proposition.","Very well.","That may sound reasonable."],
+		
+		"hateHello": "Speak!",
+		"hateLetsHearIt": ["What now!?","Hurry up then!","Quickly!"],
+		"hateNo": ["No!","That is outrageous!","Never!"],
+		"hateYes": ["Fine!","Very well then.","This may work."],
+		
+		"tradeRequest": "You better accept this deal before I change my mind.",
+		"outerColor": [255,25,25],
+		"innerColor": [54,54,54],	
+		
+		"uniqueName": "Blitzkrieg",
+		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [Land] units> <during a Golden Age>","[+1] Movement <for [Land] units> <during a Golden Age>"],
+		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
 	},
 	
 	{
@@ -251,7 +289,7 @@
 		
 		"neutralHello": "Salve.",
 		"neutralLetsHearIt": ["Tell me then.", "Yes?", "What is it?"],
-		"neutralNo": ["No", "Not today.", "It's not enough."],
+		"neutralNo": ["No.", "Not today.", "It's not enough."],
 		"neutralYes": ["Sì.", "Of course.", "A glorious offer."],
 		
 		"hateHello": "How nice to see you... again.",
@@ -268,6 +306,37 @@
 		"[+15]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Rome", "Milan", "Naples", "Turin", "Genoa", "Florence", "Bologna", "Trieste", "Palermo", "Verona", "Cagliari", "Catania", "Livorno", "Modena", "Parma", "Pisa", "Bari", "Siena", "Vicenza", "Ancona", "Arezzo", "Rimini", "La Spezia", "Reggio Emilia", "Sassari", "Bolzano", "Perugia", "Taranto", "Foggia", "Terni", "Forlí", "Brescia", "Trapani", "Catanzaro", "Aosta", "Gorizia", "L'Aquila", "Pordenone", "Sondrio", "La Maddalena", "Montecatini Terme", "Oristano", "Ragusa", "Massa", "Cosenza"],
 		"spyNames": ["Gianfranco Mingozzi", "Alfredo P. Sordini", "Luigi Ferraro", "Giuseppe Lazzaro", "Piero Orsi", "Vittorio Mussolini", "Gino Cappa", "Alberto Ronchetti", "Francesco Ferraresi", "Marcello Carli"]
+	},
+
+	//Non-aligned
+	{
+		"name": "Republic of China",
+		"leaderName": "Chiang Kai-shek",
+		"adjective": ["Chinese Nationalist"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Taoism",
+		"personality": "Chiang Kai-shek",
+
+		"startIntroPart1": "From the vast plains of the Yangtze to the towering peaks of the Himalayas, your people have persevered through centuries of triumph and trial, oh wise leader, Chiang Kai-shek. As the leader of China, you are the heir to one of the world's most ancient civilizations, now reborn in a new era of struggle and ambition. Led by the indomitable spirit of unity and modernization, your nation has stood as a beacon of resistance against foreign domination and internal strife alike. From the turmoil of revolution, you have forged a republic striving for independence, reform, and sovereignty. But the shadows of war and division loom large. The thunder of cannons echoes across the land as invaders seek to claim what is rightfully yours. Your people look to you to lead them through these darkest hours. Rally your armies, foster your industries, and inspire your citizens to rise against oppression. "
+		"startIntroPart2": "O' brave leader of China, will you guide your nation to reclaim its place among the great powers of the world? Will you unite your people and rebuild the republic into a bastion of strength and prosperity? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "China, not only fights for her own independence but also for the liberation of every oppressed nations!",
+		"attacked": "These ancient lands shall not be desecrated by the hands of greedy men like you, so long as I live!",
+		"defeated": "We write our own destiny... and so, this will shall be mine.",
+		"introduction": "I am Chiang Kai-shek, the steadfast guardian and leader of these ancient people. What brings you here, stranger?",
+		
+		"neutralHello": "Nin hao.",
+		"hateHello": "What is it?",
+		
+		"tradeRequest": "This will benefit, both your people and mine.",
+		"outerColor": [0,46,168],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "War of Resistance",
+		"uniques": ["[+20]% Strength <for [Land] units> <when fighting in [your] tiles> <when defending>", 
+					"[+10]% Production when constructing [Gunpowder] units [in all cities] <when at war>"],
+		"cities": ["Nanjing", "Shanghai", "Beijing", "Wuhan", "Chongqing", "Tianjin", "Guangzhou", "Chengdu", "Xi'an", "Hangzhou", "Shenyang", "Harbin", "Changsha", "Fuzhou", "Kunming", "Nanchang", "Taiyuan", "Jinan", "Shijiazhuang", "Dalian", "Qingdao", "Zhengzhou", "Changchun", "Lanzhou", "Ningbo", "Suzhou", "Xiamen", "Wuxi", "Hefei", "Guiyang", "Zhongshan", "Kaohsiung", "Taichung", "Zhuhai", "Luoyang", "Nanning", "Urumqi", "Hohhot", "Qiqihar", "Yantai", "Jilin", "Tangshan", "Xuzhou", "Lianyungang", "Baoding", "Anshan", "Weihai"],
+		"spyNames": ["Dai Li", "Li Kenong", "Zeng Zhongming", "Xu Enzeng", "Zhou Fohai", "Pan Hannian", "Tang Erho", "Chen Geng", "Zhang Lingfu", "Yang Kaisen"]
 	}
 
 ]

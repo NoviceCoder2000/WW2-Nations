@@ -1,42 +1,5 @@
 [ 
  {
-      "name": "Adolf Hitler",
-	  "preferredVictoryType": "Domination",
-     
-	 // Stats focused personalities	  
-      "production": 6,
-      "food": 4,
-      "gold": 6,
-      "science": 8,	  
-      "culture": 3,
-      "happiness": 4,
-      "faith": 2,
-	  
-      // Behavour focused personalities
-      "military": 12,
-      "aggressive": 10,
-      "declareWar": 11,
-      "commerce": 9,
-      "diplomacy": 4,
-      "loyal": 3,
-      "expansion": 11,
-
-	  // Policy focused personality
-      "priorities": {
-          "Tradition": 7,
-          "Liberty": 2,
-          "Honor": 9,
-          "Commerce": 6,
-          "Patronage": 5,
-          "Piety": 2,
-          "Rationalism": 8,
-          "Freedom": 1,
-          "Autocracy": 12,
-          "Order": 1
-      }
- },
- 
- {
       "name": "Joseph Stalin",
 	  "preferredVictoryType": "Diplomatic",
      
@@ -183,6 +146,117 @@
           "Order": 1
       }
 },
+
+ {
+      "name": "Władysław Sikorski",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 6,
+      "food": 5,
+      "gold": 5,
+      "science": 4,	  
+      "culture": 7,
+      "happiness": 4,
+      "faith": 4,
+	  
+      // Behavour focused personalities
+      "military": 8,
+      "aggressive": 3,
+      "declareWar": 5,
+      "commerce": 6,
+      "diplomacy": 6,
+      "loyal": 7,
+      "expansion": 3,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 4,
+          "Liberty": 6,
+          "Honor": 7,
+          "Commerce": 4,
+          "Patronage": 8,
+          "Piety": 5,
+          "Rationalism": 7,
+          "Freedom": 7,
+          "Autocracy": 5,
+          "Order": 1
+      }
+ },
+
+ {
+      "name": "Chiang Kai-shek",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 2,
+      "food": 6,
+      "gold": 6,
+      "science": 4,	  
+      "culture": 7,
+      "happiness": 4,
+      "faith": 4,
+	  
+      // Behavour focused personalities
+      "military": 5,
+      "aggressive": 4,
+      "declareWar": 6,
+      "commerce": 4,
+      "diplomacy": 7,
+      "loyal": 8,
+      "expansion": 6,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 7,
+          "Liberty": 2,
+          "Honor": 5,
+          "Commerce": 5,
+          "Patronage": 8,
+          "Piety": 4,
+          "Rationalism": 7,
+          "Freedom": 4,
+          "Autocracy": 11,
+          "Order": 1
+      }
+ },
+
+ {
+      "name": "Adolf Hitler",
+	  "preferredVictoryType": "Domination",
+     
+	 // Stats focused personalities	  
+      "production": 6,
+      "food": 4,
+      "gold": 6,
+      "science": 8,	  
+      "culture": 3,
+      "happiness": 4,
+      "faith": 2,
+	  
+      // Behavour focused personalities
+      "military": 12,
+      "aggressive": 10,
+      "declareWar": 11,
+      "commerce": 9,
+      "diplomacy": 4,
+      "loyal": 3,
+      "expansion": 11,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 7,
+          "Liberty": 2,
+          "Honor": 9,
+          "Commerce": 6,
+          "Patronage": 5,
+          "Piety": 2,
+          "Rationalism": 8,
+          "Freedom": 0,
+          "Autocracy": 12,
+          "Order": 0
+      }
+ },
  
   {
       "name": "Hideki Tojo",

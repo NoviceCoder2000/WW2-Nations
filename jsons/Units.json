@@ -119,6 +119,21 @@
 	},
 	
 	{
+		"name": "Black Brigade Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Republic of Poland",
+		"movement": 2,
+		"strength": 75,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"promotions": ["[Black Brigade Infantry] ability"]
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	
+	{
 		"name": "Zero",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
@@ -192,12 +207,50 @@
 		"attackSound": "machinegun"
 	},
 	
+//Non-aligned nations
+	//China
+	{
+		"name": "Central Army Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Republic of China",
+		"movement": 2,
+		"strength": 65,
+		"cost": 335,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "'Flying Tigers'",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Republic of China",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 395,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", 
+		"[+150]% Strength <vs [Bomber] units>", 
+		"[+150]% Strength <vs [Helicopter] units>",
+		"[+33]% Strength <vs [Land] units>"],
+		"promotions": ["Operational Range"],
+		"attackSound": "machinegun"
+	},
 // Replaced Units
 	
 	{
 		"name": "Panzer",
 		"unitType": "Armored",
 		"replaces": "Tank",
+		"uniqueTo": "Germany"
 		"movement": 6,
 		"strength": 80,
 		"cost": 375,
