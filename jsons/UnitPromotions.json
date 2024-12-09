@@ -3,6 +3,12 @@
 		"name": "[Supermarine Spitfire] ability",
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
+
+	{
+		"name": "[SS Panzergrenadiers] ability",
+		"uniques": ["[+20]% Strength <when fighting in [Enemy] tiles>", "No movement cost to pillage"]
+	},
+
 	
 	{
 		"name": "[Alpini] ability",

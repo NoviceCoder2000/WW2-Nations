@@ -259,6 +259,43 @@
  },
  
   {
+      "name": "Heinrich Himmler",
+	  "preferredVictoryType": "Domination",
+     
+	 // Stats focused personalities	  
+      "production": 8,
+      "food": 5,
+      "gold": 11,
+      "science": 8,	  
+      "culture": 2,
+      "happiness": 2,
+      "faith": 1,
+	  
+      // Behavour focused personalities
+      "military": 10,
+      "aggressive": 11,
+      "declareWar": 11,
+      "commerce": 5,
+      "diplomacy": 2,
+      "loyal": 6,
+      "expansion": 11,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 5,
+          "Liberty": 9,
+          "Honor": 10,
+          "Commerce": 6,
+          "Patronage": 2,
+          "Piety": 2,
+          "Rationalism": 8,
+          "Freedom": 0,
+          "Autocracy": 12,
+          "Order": 0
+      }
+ },
+ 
+  {
       "name": "Hideki Tojo",
 	  "preferredVictoryType": "Domination",
      

@@ -230,6 +230,40 @@
 	},
 	
 	{
+		"name": "Reichskommissariate des Ostens",
+		"leaderName": "Heinrich Himmler",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Positive Christianity",
+		"personality": "Heinrich Himmker",
+
+		"startIntroPart1": "As Hitler's iron fist punch through the East in dreams of establishing his dreams of Lebensraum, here, the Reichskommissariats of Ostland, Ukraine, Kaukasien, Polen and Moskowien was born. Rule on the Slavic East is harsh, as these lands are filled with people Hitler and his party considered as \"Untermensch\" or \"Subhumans\" whom he believed as unworthy to rule for themselves or even of their own lives. Representing one of the most deadly occupations on recent memory, are the Reichskommissariate des Ostens, although not historically accurate, these represents all of those under who fell under the boots of the relentless German armies, most notably the lands within Eastern Europe who were the most devastated by the relentless war machine of the Third Reich.",
+		"startIntroPart2": "Lead your forces into dominating the entire world in this high-risk, high-reward campaign that focuses on aggressive expansion with Heinrich Himmler's SS and exploit the lands of your foes by establishing Reichskommissariats in their territories that they are too weak to take back. Can you crush all of your enemies? Can you create a strong empire under the dust of your fallen rivals? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "The Fatherland demands the extermination of you and your people. It is best if you do not perform any worthless attempts to resist.",
+		"attacked": "A foolish choice! What good is there to fight against the inevitability of your demise!?",
+		"defeated": "May the gods forgive my failure. For I have failed the Fatherland, and the dreams of creating a glorious future for our people.",
+		"introduction": "I am Reichsführer-SS, Heinrich Himmler. Overseer of the operations here in the lands liberated by the Fatherland. You don't happen to be an... \"undersirable\" now are you, friend?",
+		
+		"neutralHello": "Heil.",
+		"hateHello": "What is it that you want?!",
+
+		"tradeRequest": "Accept this deal, for you know this shall benefit you well.",
+		"outerColor": [20, 20, 20],
+		"innerColor": [248,248,255],	
+		
+		"uniqueName": "Verbrannte Erde und Lebensraum",
+		"uniques": ["Upon capturing a city, receive [2] times its [Culture] production as [Gold] immediately",
+		"Upon capturing a city, receive [2] times its [Production] production as [Science] immediately",
+		"Cities are razed [2] times as fast",
+		"[-3 Happiness] [in annexed cities]"
+		"\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Reichshauptstadt"],
+		"spyNames": ["Reinhard Heydrich", "Adolf Eichmann", "Joseph Mengele", "Karl Höss", "Jürgen Stroop", "Heinrich Müller", "Erich von dem Bach-Zelewski", "Richard Glücks", "Fritz Sauckel", "Arthur Nebe"]
+	},
+	
+	
+	{
 		"name": "Empire of Japan",
 		"leaderName": "Hideki Tojo",
 		"adjective": ["Japanese"],

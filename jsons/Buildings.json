@@ -1,5 +1,20 @@
 [
 	{
+		"name": "Reichskommissariat Verwaltung",
+		"replaces": "Courthouse",
+		"uniqueTo": "Reichskommissariate des Ostens",
+		"maintenance": 0,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"[+2 Gold] per [1] population [in this city]",
+			"[+1 Production] per [1] population [in this city]"
+			"[-50]% [Culture] [in this citiy]"
+			"[-50]% [Science] [in this citiy]"],
+		"requiredTech": "Mathematics"
+	},
+
+	{
 		"name": "Assembly Plant",
 		"replaces": "Factory",
 		"uniqueTo": "United States of America",

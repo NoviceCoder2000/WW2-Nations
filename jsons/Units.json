@@ -134,6 +134,22 @@
 	},
 	
 	{
+		"name": "SS Panzergrenadiers",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Reichskommissariate des Ostens",
+		"movement": 3,
+		"strength": 75,
+		"cost": 395,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["[+33]% maintenance costs"],
+		"promotions": ["[SS Panzergrenadiers] ability"]		
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	
+	{
 		"name": "Zero",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
