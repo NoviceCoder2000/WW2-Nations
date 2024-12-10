@@ -185,43 +185,6 @@
  },
 
  {
-      "name": "Chiang Kai-shek",
-	  "preferredVictoryType": "Diplomatic",
-     
-	 // Stats focused personalities	  
-      "production": 2,
-      "food": 6,
-      "gold": 6,
-      "science": 4,	  
-      "culture": 7,
-      "happiness": 4,
-      "faith": 4,
-	  
-      // Behavour focused personalities
-      "military": 5,
-      "aggressive": 4,
-      "declareWar": 6,
-      "commerce": 4,
-      "diplomacy": 7,
-      "loyal": 8,
-      "expansion": 6,
-
-	  // Policy focused personality
-      "priorities": {
-          "Tradition": 7,
-          "Liberty": 2,
-          "Honor": 5,
-          "Commerce": 5,
-          "Patronage": 8,
-          "Piety": 4,
-          "Rationalism": 7,
-          "Freedom": 4,
-          "Autocracy": 11,
-          "Order": 1
-      }
- },
-
- {
       "name": "Adolf Hitler",
 	  "preferredVictoryType": "Domination",
      
@@ -368,5 +331,79 @@
           "Order": 1
       }
 }
+
+ {
+      "name": "Chiang Kai-shek",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 2,
+      "food": 6,
+      "gold": 6,
+      "science": 4,	  
+      "culture": 7,
+      "happiness": 4,
+      "faith": 4,
+	  
+      // Behavour focused personalities
+      "military": 5,
+      "aggressive": 4,
+      "declareWar": 6,
+      "commerce": 4,
+      "diplomacy": 7,
+      "loyal": 8,
+      "expansion": 6,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 7,
+          "Liberty": 2,
+          "Honor": 5,
+          "Commerce": 5,
+          "Patronage": 8,
+          "Piety": 4,
+          "Rationalism": 7,
+          "Freedom": 4,
+          "Autocracy": 11,
+          "Order": 1
+      }
+ },
+
+ {
+      "name": "Francisco Franco",
+	  "preferredVictoryType": "Diplomatic",
+     
+	 // Stats focused personalities	  
+      "production": 8,
+      "food": 5,
+      "gold": 6,
+      "science": 4,	  
+      "culture": 7,
+      "happiness": 6,
+      "faith": 7,
+	  
+      // Behavour focused personalities
+      "military": 5,
+      "aggressive": 5,
+      "declareWar": 5,
+      "commerce": 6,
+      "diplomacy": 4,
+      "loyal": 3,
+      "expansion": 4,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 7,
+          "Liberty": 3,
+          "Honor": 5,
+          "Commerce": 7,
+          "Patronage": 4,
+          "Piety": 8,
+          "Rationalism": 4,
+          "Freedom": 1,
+          "Autocracy": 11,
+          "Order": 0
+      }
+ },
 
 ]

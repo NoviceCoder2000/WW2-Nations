@@ -186,7 +186,7 @@
 		"innerColor": [255,255,0],
 		
 		"uniqueName": "War of The People",
-		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[-25]% Gold cost of upgrading","[+15]% [Science] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
+		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[+15]% Production when constructing [Land] units [in all cities] <when at war>","[+15]% [Science]  [in all cities] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
 		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"],
 		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
 	},
@@ -255,8 +255,8 @@
 		"uniqueName": "Verbrannte Erde und Lebensraum",
 		"uniques": ["Upon capturing a city, receive [2] times its [Culture] production as [Gold] immediately",
 		"Upon capturing a city, receive [2] times its [Production] production as [Science] immediately",
+		"[-2 Happiness] [in annexed cities]"
 		"Cities are razed [2] times as fast",
-		"[-3 Happiness] [in annexed cities]"
 		"\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Reichshauptstadt"],
 		"spyNames": ["Reinhard Heydrich", "Adolf Eichmann", "Joseph Mengele", "Karl Höss", "Jürgen Stroop", "Heinrich Müller", "Erich von dem Bach-Zelewski", "Richard Glücks", "Fritz Sauckel", "Arthur Nebe"]
@@ -342,6 +342,7 @@
 		"spyNames": ["Gianfranco Mingozzi", "Alfredo P. Sordini", "Luigi Ferraro", "Giuseppe Lazzaro", "Piero Orsi", "Vittorio Mussolini", "Gino Cappa", "Alberto Ronchetti", "Francesco Ferraresi", "Marcello Carli"]
 	},
 
+
 	//Non-aligned
 	{
 		"name": "Republic of China",
@@ -372,5 +373,39 @@
 		"cities": ["Nanjing", "Shanghai", "Beijing", "Wuhan", "Chongqing", "Tianjin", "Guangzhou", "Chengdu", "Xi'an", "Hangzhou", "Shenyang", "Harbin", "Changsha", "Fuzhou", "Kunming", "Nanchang", "Taiyuan", "Jinan", "Shijiazhuang", "Dalian", "Qingdao", "Zhengzhou", "Changchun", "Lanzhou", "Ningbo", "Suzhou", "Xiamen", "Wuxi", "Hefei", "Guiyang", "Zhongshan", "Kaohsiung", "Taichung", "Zhuhai", "Luoyang", "Nanning", "Urumqi", "Hohhot", "Qiqihar", "Yantai", "Jilin", "Tangshan", "Xuzhou", "Lianyungang", "Baoding", "Anshan", "Weihai"],
 		"spyNames": ["Dai Li", "Li Kenong", "Zeng Zhongming", "Xu Enzeng", "Zhou Fohai", "Pan Hannian", "Tang Erho", "Chen Geng", "Zhang Lingfu", "Yang Kaisen"]
 	}
+	
+	{
+		"name": "Spanish State",
+		"leaderName": "Francisco Franco",
+		"adjective": ["Spanish"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Francisco Franco",
+
+		"startIntroPart1": "May God bless you and our divine nation, Caudillo and leader of the Spanish people. Spain once had a great dream of Spanish hegemony all over the world. Once ruled the Americas, now Spain has been reduced to a struggling nation who can barely keep up with its rivals. And from time to time, Spain had been humbled and humiliated by its enemies. From the British, the Americans, the French and the Dutch leading to its decline and its loss of its colonies from the lands of Mexico to the Plateaus of Argentina.",
+		"startIntroPart2": "Although, despite our losses, all hope is not yet lost. Spain still has hopes to regain its great glory and have our revenge to our enemies who had mafe our nation suffer greatly, as the storms of war once more shall test the perseverance and resilience of the Spanish people. Can you guide our men to victory? Can you lead Spain to its next golden age? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "I am responsible only to God and history. And today, I shall be responsible for your demise!",
+		"attacked": "Spain shall not cower under your threats to us. Let it be your folly doom you.",
+		"defeated": "I have done what I can. But it seems fate and God himself have handed me over to you.",
+		"introduction": "Buenos días, I am Francisco Franco, servant of God and Caudillo of Spain. And who might you be, stranger?",
+		
+		"neutralHello": "What can I do for you?",
+		"hateHello": "What!?",
+		
+		"tradeRequest": "What can you say about this offer?",
+		"outerColor": [241, 191, 0],
+		"innerColor": [170, 21, 27],	
+		
+		"uniqueName": "Autarky and Authority",
+		"uniques": ["[+20]% Production when constructing [All] buildings [in all cities]",
+		"[+1 Happiness] from every [Courthouse]",
+		"[+1 Happiness] from every [Police Station]",
+		"[-25]% enemy spy effectiveness [in all cities]",
+		"[-10]% [Science] [in all cities]"],
+		"cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao", "Zaragoza", "Malaga", "Granada", "Valladolid", "Cordoba", "Santander", "La Coruña", "San Sebastián", "Oviedo", "Pamplona", "Toledo", "Burgos", "Gijón", "Vigo", "Salamanca", "Almería", "Alicante", "Huelva", "León", "Cádiz", "Murcia", "Logroño", "Lugo", "Orense", "Badajoz", "Cáceres", "Tarragona", "Palma de Mallorca", "Albacete", "Segovia", "Soria", "Cuenca", "Guadalajara", "Huesca", "Zamora", "Teruel", "Jaén", "Ceuta", "Melilla"],
+		"spyNames": ["Hilario López Cerrud", "Guillermo Candini", "Andrés Avelino Artal", "Pedro Urraca Rendueles", "José Finat y Escrivá de Romaní", "Santiago Montero Díaz", "Antonio Vallejo-Nájera", "Rafael Sánchez Mazas", "José Ungría Jiménez", "Álvaro Leret Ruiz"]
+	},	
 
 ]

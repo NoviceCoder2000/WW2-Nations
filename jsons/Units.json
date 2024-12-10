@@ -240,7 +240,7 @@
 	},
 
 	{
-		"name": "'Flying Tigers'",
+		"name": "\"Flying Tigers\"",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "Republic of China",
@@ -260,6 +260,43 @@
 		"promotions": ["Operational Range"],
 		"attackSound": "machinegun"
 	},
+	
+	{
+		"name": "Regulares",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Spanish State",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>",
+		"[+20]% Strength <when fighting in [Desert] tiles>"]
+		"promotions": ["Morale"],
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Condor Legion",
+		"unitType": "Bomber",
+		"replaces": "Great War Bomber",
+		"uniqueTo": "Spanish State",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Bomber",
+		"uniques": ["[+33]% Strength <when fighting in [Foreign] tiles>"]
+		"promotions": ["Siege I"]
+		"obsoleteTech": "Radar",
+		"attackSound": "bombing"
+	},
+	
 // Replaced Units
 	
 	{
