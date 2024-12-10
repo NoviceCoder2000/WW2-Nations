@@ -3,6 +3,7 @@
 Stuka Icon:
 Machine Gun by aitor from <a href="https://thenounproject.com/browse/icons/term/machine-gun/" target="_blank" title="Machine Gun Icons">Noun Project</a> (CC BY 3.0)
 
+-Reichskommisiariate Ost
 - SS Panzergrenadiers
 https://thenounproject.com/icon/machine-gun-4929205/
 
@@ -35,12 +36,21 @@ https://thenounproject.com/icon/fighter-aircraft-3572097/
 Alpini
 https://thenounproject.com/icon/tyrolean-hat-3785811/
 
+//Non-aligned
+
 - RoC
 Central Army Infantry
 https://thenounproject.com/icon/rifle-4933066/
 
 "Flying Tigers"
 https://thenounproject.com/icon/chomp-920807/
+
+- Spain
+Regulares
+Rifle by Supanut Piyakanont from <a href="https://thenounproject.com/browse/icons/term/rifle/" target="_blank" title="Rifle Icons">Noun Project</a> (CC BY 3.0)
+
+Condor Legion
+Biplane by Nathan Thomson from <a href="https://thenounproject.com/browse/icons/term/biplane/" target="_blank" title="Biplane Icons">Noun Project</a> (CC BY 3.0)
 
 //To be Used
 Czechkoslovakia
