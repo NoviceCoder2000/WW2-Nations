@@ -10,7 +10,8 @@
 			"[+2 Gold] per [1] population [in this city]",
 			"[+1 Production] per [1] population [in this city]"
 			"[-50]% [Culture] [in this citiy]"
-			"[-50]% [Science] [in this citiy]"],
+			"[-50]% [Science] [in this citiy]"
+			"[-50]% growth [in this city]"],
 		"requiredTech": "Mathematics"
 	},
 
@@ -54,11 +55,9 @@
 		"food": 2,
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "Museum",
-		"maintenance": 3,
 		"requiredTech": "Radio",
-		"uniques": ["[+50]% Yield from every [Great Improvement] <in this city>",
-		"[+25]% Great Person generation [in this city]"
-		"Destroyed when the city is captured"] //Tourism in BNW
+		"uniques": ["[+2 Gold, +2 Culture] from every [Wonder] <in this city>"
+		"Destroyed when the city is captured"] //Tourism related uniques in BNW
 	},
 	
 	{
@@ -73,6 +72,18 @@
 		"[+2 Culture, +2 Production] [in this city] <with a garrison>",
 		"Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
+	},
+	
+	{
+		"name": "Casa del Pueblo",
+		"replaces": "Library"
+		"uniqueTo": "Spanish Republic",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"[+25]% Great Person generation [in this city]",
+		"[+50]% Yield from every [Great Improvement] <in this city>"],
+		"requiredTech": "Writing"
 	},
 	
 	//Substitute Buildings

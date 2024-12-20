@@ -184,6 +184,7 @@
 		"requiredTech": "Electronics",
 		"uniques": ["[+33]% Strength <vs [Melee Water] units>",
 		"[+33]% Strength <vs [Ranged Water] units>",
+		"[-33]% Strength <vs [Bomber] units>"
 		"[-50]% Strength <vs [Submarines] units> <when defending>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -240,7 +241,7 @@
 	},
 
 	{
-		"name": "\"Flying Tigers\"",
+		"name": "'Flying Tigers'",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "Republic of China",
@@ -295,6 +296,24 @@
 		"promotions": ["Siege I"]
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
+	},
+	
+	{
+		"name": "Brigadas Internacionales",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Spanish Republic",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["[+15]% Strength <when fighting in [Foreign] tiles>",
+		"[+15]% Strength <when adjacent to a [Friendly] unit>",
+		"Can move immediately once bought"
+		]
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
 	},
 	
 // Replaced Units

@@ -383,7 +383,7 @@
       "faith": 7,
 	  
       // Behavour focused personalities
-      "military": 5,
+      "military": 7,
       "aggressive": 5,
       "declareWar": 5,
       "commerce": 6,
@@ -405,5 +405,42 @@
           "Order": 0
       }
  },
+ 
+{
+      "name": "Manuel Azaña",
+	  "preferredVictoryType": "Cultural",
+     
+	 // Stats focused personalities	  
+      "production": 4,
+      "food": 6,
+      "gold": 4,
+      "science": 7,	  
+      "culture": 7,
+      "happiness": 5,
+      "faith": 2,
+	  
+      // Behavour focused personalities
+      "military": 4,
+      "aggressive": 3,
+      "declareWar": 4,
+      "commerce": 6,
+      "diplomacy": 7,
+      "loyal": 7,
+      "expansion": 4,
+
+	  // Policy focused personality
+      "priorities": {
+          "Tradition": 4,
+          "Liberty": 7,
+          "Honor": 3,
+          "Commerce": 7,
+          "Patronage": 5,
+          "Piety": 4,
+          "Rationalism": 6,
+          "Freedom": 6,
+          "Autocracy": 2,
+          "Order": 8
+      }
+},
 
 ]

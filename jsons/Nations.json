@@ -78,7 +78,7 @@
 		"Military Units gifted from City-States start with [15] XP",
 		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
 		"cities": ["London", "Birmingham", "Liverpool", "Manchester", "Glasgow", "Edinburgh", "Belfast", "Sheffield", "Bristol", "Leeds", "Newcastle upon Tyne", "Coventry", "Portsmouth", "Southampton", "Hull", "Nottingham", "Cardiff", "Dundee", "Swansea", "Derby", "Reading", "Milton Keynes", "Oxford", "Cambridge", "Leicester", "Aberdeen", "Dundee", "St. Albans", "Plymouth", "Luton", "Wigan", "Peterborough", "Southend-on-Sea", "Ipswich", "Bournemouth"],
-		"spyNames": ["Juan Pujol García", "Kim Philby", "Sir Hugh Trevor-Roper", "Eddie Chapman", "John Cairncross", "Gordon Waller", "Fritz Kolbe", "Bletchley Park Cryptanalysts", "William Fairbairn", "Maurice Buckmaster"]
+		"spyNames": ["Juan Pujol García", "Kim Philby", "Sir Hugh Trevor-Roper", "Eddie Chapman", "John Cairncross", "Gordon Waller", "Fritz Kolbe", "Alan Turing", "William Fairbairn", "Maurice Buckmaster"]
 	},
 	
 	{
@@ -253,8 +253,8 @@
 		"innerColor": [248,248,255],	
 		
 		"uniqueName": "Verbrannte Erde und Lebensraum",
-		"uniques": ["Upon capturing a city, receive [2] times its [Culture] production as [Gold] immediately",
-		"Upon capturing a city, receive [2] times its [Production] production as [Science] immediately",
+		"uniques": ["Upon capturing a city, receive [5] times its [Culture] production as [Gold] immediately",
+		"Upon capturing a city, receive [5] times its [Production] production as [Science] immediately",
 		"[-2 Happiness] [in annexed cities]"
 		"Cities are razed [2] times as fast",
 		"\"Borrows\" city names from other civilizations in the game"],
@@ -377,14 +377,14 @@
 	{
 		"name": "Spanish State",
 		"leaderName": "Francisco Franco",
-		"adjective": ["Spanish"],
+		"adjective": ["Nationalist"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Christianity", //Catholicism in BNW
 		"personality": "Francisco Franco",
 
-		"startIntroPart1": "May God bless you and our divine nation, Caudillo and leader of the Spanish people. Spain once had a great dream of Spanish hegemony all over the world. Once ruled the Americas, now Spain has been reduced to a struggling nation who can barely keep up with its rivals. And from time to time, Spain had been humbled and humiliated by its enemies. From the British, the Americans, the French and the Dutch leading to its decline and its loss of its colonies from the lands of Mexico to the Plateaus of Argentina.",
-		"startIntroPart2": "Although, despite our losses, all hope is not yet lost. Spain still has hopes to regain its great glory and have our revenge to our enemies who had mafe our nation suffer greatly, as the storms of war once more shall test the perseverance and resilience of the Spanish people. Can you guide our men to victory? Can you lead Spain to its next golden age? Can you build a civilization that can stand the test of time?",
+		"startIntroPart1": "May God bless you Francisco Franco leader of our divine nation, and Caudillo of the Spanish people. Spain once had a great dream of Spanish hegemony all over the world. In the past, we once discovered and ruled the Americas, subjugating and humbling the savage Aztecs hidden in the jungles of Mexico to the determined Incas of the Andes. In the present however, Spain has been reduced to a struggling nation who can barely keep up with its rivals, a terrible fate for an Empire where the Sun never had set. And from time to time, Spain had been humbled and humiliated by its enemies. From the British, the Americans, the French and the Dutch leading to its decline and its loss of its colonies from the lands of Mexico to the Plateaus of Argentina, making our proud nation and people irrelevant to the stage of the world.",
+		"startIntroPart2": "Although, despite our losses, all hope is not yet lost. Spain still has hopes to regain its great glory and have our revenge to our enemies who had made our nation suffer greatly, as the storms of war once more shall test the perseverance and resilience of the Spanish people. El Caudillo, your guidance is needed once more on such times where the world is shifting to a great period of conflict. Can you guide our men to victory? Can you lead Spain to its next golden age? Can you build a civilization that can stand the test of time?",
 		
 		"declaringWar": "I am responsible only to God and history. And today, I shall be responsible for your demise!",
 		"attacked": "Spain shall not cower under your threats to us. Let it be your folly doom you.",
@@ -406,6 +406,38 @@
 		"[-10]% [Science] [in all cities]"],
 		"cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao", "Zaragoza", "Malaga", "Granada", "Valladolid", "Cordoba", "Santander", "La Coruña", "San Sebastián", "Oviedo", "Pamplona", "Toledo", "Burgos", "Gijón", "Vigo", "Salamanca", "Almería", "Alicante", "Huelva", "León", "Cádiz", "Murcia", "Logroño", "Lugo", "Orense", "Badajoz", "Cáceres", "Tarragona", "Palma de Mallorca", "Albacete", "Segovia", "Soria", "Cuenca", "Guadalajara", "Huesca", "Zamora", "Teruel", "Jaén", "Ceuta", "Melilla"],
 		"spyNames": ["Hilario López Cerrud", "Guillermo Candini", "Andrés Avelino Artal", "Pedro Urraca Rendueles", "José Finat y Escrivá de Romaní", "Santiago Montero Díaz", "Antonio Vallejo-Nájera", "Rafael Sánchez Mazas", "José Ungría Jiménez", "Álvaro Leret Ruiz"]
+	},	
+	
+	{
+		"name": "Spanish Republic",
+		"leaderName": "Manuel Azaña",
+		"adjective": ["Republican"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Manuel Azaña",
+
+		"startIntroPart1": "May God guide both you and Republic, Señor Manuel Azaña, Prime Minister of Spain and the leader of our glorious Spanish Republic. For many years, Spain had been a proud nation that once was the greatest civilization within our planet. However, many things have set us back, from costly wars, economic mismanagement and corruption had led our people reduced from one of the greatest that stood within history to a hollow husk of a once proud Empire whose riches is measured by gold. Spain has been so irrelevant that we have done nothing but to sit idly and spectate as great conflicts such as the Great War was fought and nations such as Germany and Britain fought for supremacy as they carve their own spheres of influence.",
+		"startIntroPart2": "However, as time marches forward, so too are the balance of power. Spain had been sitting idly and it is up to you to change the fate of our once glorious nation. Prime Minister, can you lead Spain to relevance once more? Can you secure a bright and free for the Spanish people? Can you build a civilization that can stand the test of time.",
+		
+		"declaringWar": "I have sought all peaceful resolution to end our animosities, but it seems war shall be the only way to settle our differences!",
+		"attacked": "You may attack us, but the Republic will not fall! We will fight to the end for the freedom of Spain!",
+		"defeated": "¡Adiós, España! I do not want to see you again.",
+		"introduction": "Bienvenido, I am Manuel Azaña, leader of the Republic of Spain. What brought you here to our lands?",
+		
+		"neutralHello": "Hola.",
+		"hateHello": "Why are you here?",
+		
+		"tradeRequest": "Surely this offer would convince you, yes?",
+		"outerColor": [241, 191, 0],
+		"innerColor": [75, 0, 130],	
+		
+		"uniqueName": "La Segunda República",
+		"uniques": ["[+2 Culture] [in all cities] <with a garrison>"
+		"[+15]% [Culture] [in your cities] <in cities with at least [10] [Population]>",
+		"[+15]% [Science] [in your cities] <in cities with at least [3] [Specialists]>"],
+		"cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao", "Zaragoza", "Malaga", "Granada", "Valladolid", "Cordoba", "Santander", "La Coruña", "San Sebastián", "Oviedo", "Pamplona", "Toledo", "Burgos", "Gijón", "Vigo", "Salamanca", "Almería", "Alicante", "Huelva", "León", "Cádiz", "Murcia", "Logroño", "Lugo", "Orense", "Badajoz", "Cáceres", "Tarragona", "Palma de Mallorca", "Albacete", "Segovia", "Soria", "Cuenca", "Guadalajara", "Huesca", "Zamora", "Teruel", "Jaén", "Ceuta", "Melilla"],
+		"spyNames": ["Juan Negrín López", "Arturo Barea", "Vittorio Vidali", "Ernest Hemingway", "María Teresa León", "León Narvitch", "Dolores Ibárruri", "Margarita Nelken", "Luis Buñuel", "Pablo de Azcárate"]
 	},	
 
 ]
