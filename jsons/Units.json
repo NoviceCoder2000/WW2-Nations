@@ -315,6 +315,52 @@
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
+
+	{
+		"name": "ČKD LT vz. 38",
+		"unitType": "Armored",
+		"movement": 6,
+		"replaces": "Tank",
+		"uniqueTo": "Czechoslovakia",
+		"strength": 64,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+15]% Strength <vs [Gunpowder] units>"],
+		"promotions": ["Drill I"],
+		"attackSound": "tankshot"
+	},
+	
+	{
+		"name": "Landwehr",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Switzerland",
+		"movement": 2,
+		"strength": 65,
+		"cost": 350,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"promotions": ["[Landwehr] ability"]
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Piyade",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Turkey",
+		"movement": 2,
+		"strength": 48,
+		"cost": 320,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["[+15]% Strength <when fighting in [Hill] tiles>"],
+		"promotions": ["Drill I"]
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
 	
 // Replaced Units
 	
@@ -332,6 +378,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Cannot be purchased","Will not be displayed in Civilopedia","Unbuildable"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
+		//Is replaced by Tiger I instead
 	},
 	
 	{

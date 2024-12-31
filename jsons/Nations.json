@@ -225,7 +225,7 @@
 		
 		"uniqueName": "Blitzkrieg",
 		"uniques": ["[+10]% Strength <for [Armored] units>","[+1] Movement <for [Armored] units> <when at war>","[+15]% Strength <for [Land] units> <during a Golden Age>","[+1] Movement <for [Land] units> <during a Golden Age>"],
-		"cities": ["Berlin","Munich","Hamburg","Nuremberg","Vienna","Prauge","Linz","Graz","Ostrava","Salzburg","Brno","Innsbruck","Konigsberg","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Essen", "Bremen", "Dortmund", "Düsseldorf", "Hannover", "Kiel", "Magdeburg", "Freiburg", "Mannheim", "Karlsruhe", "Aachen", "Chemnitz", "Königsberg", "Mainz", "Rostock", "Würzburg", "Schwerin", "Lübeck", "Kassel", "Saarbrücken", "Heidelberg", "Bonn", "Halle", "Göttingen", "Regensburg", "Potsdam", "Osnabrück", "Erfurt", "Weimar", "Flensburg", "Cottbus", "Braunschweig", "Friedrichshafen", "Oldenburg", "Görlitz", "Jena", "Greifswald", "Passau", "Trier", "Coburg", "Ulm"],
 		"spyNames": ["Richard Sorge", "Elyesa Bazna", "Otto Skorzeny", "Fritz Joubert Duquesne", "Erich Vermehren", "Lothar Witzke", "Arthur Owens", "Duško Popov", "Hans Oster", "Wilhelm Canaris"]
 	},
 	
@@ -314,7 +314,7 @@
 		"personality": "Benito Mussolini",
 
 		"startIntroPart1": "Salve Benito Mussolini, Il Duce and leader of the Italian people! Compared to the other European great powers of our time, Italy is a young and fledgeling nation. We have participated greatly within the Great War, were have went out and sent our men to fight against our old enemies: The Austro-Hungarian Empire. However, the bravery of our men were all for naught for we are only to be betrayed by our allies who gave false promises to help Italy became a greater power in the world stage, and only gave us a meager portion of what they had promised to us. This treachery however, is not forgiven nor forgotten! ",
-		"startIntroPart2": "Il Duce, it is time we make the treacherous Britons and French learn to bow before Italian supremacy and restore the might of our Roman ancestors and make them proud. Can you prove to the world the Italy is not just a fledgeling nation? Can you restore Romanità revive Rome? Can you build a civilization that can withstand the test of time?",
+		"startIntroPart2": "Il Duce, it is time we make the treacherous Britons and French learn to bow before Italian supremacy and restore the might of our Roman ancestors and make them proud. Can you prove to the world the Italy is not just a fledgeling nation? Can you restore Romanità and revive Rome? Can you build a civilization that can withstand the test of time?",
 		
 		"declaringWar": "Let it be known that Rome shall be restored to its former glory, and your nation will be just our stepping stone!",
 		"attacked": "The glorious Italian nation shall remain steadfast against your pitiful attempts to intimidate us!",
@@ -428,8 +428,8 @@
 		"neutralHello": "Hola.",
 		"hateHello": "Why are you here?",
 		
-		"tradeRequest": "Surely this offer would convince you, yes?",
-		"outerColor": [241, 191, 0],
+		"tradeRequest": "Surely, this offer would convince you, yes?",
+		"outerColor": [219, 174, 0],
 		"innerColor": [75, 0, 130],	
 		
 		"uniqueName": "La Segunda República",
@@ -438,6 +438,101 @@
 		"[+15]% [Science] [in your cities] <in cities with at least [3] [Specialists]>"],
 		"cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao", "Zaragoza", "Malaga", "Granada", "Valladolid", "Cordoba", "Santander", "La Coruña", "San Sebastián", "Oviedo", "Pamplona", "Toledo", "Burgos", "Gijón", "Vigo", "Salamanca", "Almería", "Alicante", "Huelva", "León", "Cádiz", "Murcia", "Logroño", "Lugo", "Orense", "Badajoz", "Cáceres", "Tarragona", "Palma de Mallorca", "Albacete", "Segovia", "Soria", "Cuenca", "Guadalajara", "Huesca", "Zamora", "Teruel", "Jaén", "Ceuta", "Melilla"],
 		"spyNames": ["Juan Negrín López", "Arturo Barea", "Vittorio Vidali", "Ernest Hemingway", "María Teresa León", "León Narvitch", "Dolores Ibárruri", "Margarita Nelken", "Luis Buñuel", "Pablo de Azcárate"]
+	},	
+
+	{
+		"name": "Czechoslovakia",
+		"leaderName": "Edvard Beneš",
+		"adjective": ["Czechoslovakian"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Edvard Beneš",
+
+		"startIntroPart1": "Good day, Mr. Edvard Beneš, President of the Czechoslovak People and its free and independent Republic. Czechoslovakia is a nation that was born within an era of uncertainty, teetering as a young republic from the ashes of the Great War. Once we were but a subject from Austro-Hungarian rule, an autocratic nation under the reins of the old rulers of the Habsburgs. But now, we are free from the yoke of the old Empire and both Bohemians and Slovakians have fought for independence and now coexisted under the flag of Czechoslovakia.",
+		"startIntroPart2": "However, despite our struggle to free ourselves from oppression, we, as a young republic still have a lot more challenges to face. Mr. President, the people would need a bright leader to continue the survival of our republic and bring us to greatness. Are you up to the task? Can you protect our freedom and democracy? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "We have gave you a chance to change your tyrannical way of life, but refused. Now, you've forced us to lift our hands against you!",
+		"attacked": "Of one thing I am profoundly convinced. My people will never abandon their democratic way of life. And so, we shall never submit to you as well!",
+		"defeated": "I have so many regrets in these life. May my next one be not as tragic as this.",
+		"introduction": "I am Dr. Edvard Beneš, president of the proud nation of Czechoslovakia. It is a pleasure to be your acquiantance and potential friend.",
+		
+		"neutralHello": "Dobrý den, friend.",
+		"hateHello": "What do you want from me?",
+		
+		"tradeRequest": "Do you think this agreement is suffice?",
+		"outerColor": [2, 232, 182],
+		"innerColor": [206, 17, 38],	
+		
+		"uniqueName": "Industrial Pioneers",
+		"uniques": ["[+1 Production] from each Trade Route",
+		"[10]% [Science] [in all cities] <if [Workshop] is constructed>"
+		"[10]% [Science] [in all cities] <if [Škoda Works] is constructed>"],
+		"cities": ["Prague", "Brno", "Ostrava", "Plzeň", "Liberec", "Olomouc", "České Budějovice", "Hradec Králové", "Ústí nad Labem", "Pardubice", "Zlín", "Kladno", "Havířov", "Most", "Opava", "Frýdek-Místek", "Teplice", "Karviná", "Jihlava", "Děčín", "Trenčín", "Prešov", "Nitra", "Košice", "Žilina", "Banská Bystrica", "Martin", "Trnava", "Přerov", "Chomutov", "Prostějov", "Tábor", "Znojmo", "Mladá Boleslav", "Písek", "Karlovy Vary", "Šumperk", "Uherské Hradiště", "Cheb", "Vsetín", "Kutná Hora", "Jablonec nad Nisou", "Hodonín", "Kroměříž"],
+		"spyNames": ["Jan Kubiš", "Jozef Gabčík", "František Moravec", "Hana Krupková", "Václav Morávek", "Josef Mašín", "Josef Balabán", "Alois Eliáš", "Marie Kovárníková", "Jaroslav Hájíček"]
+	},	
+	
+	{
+		"name": "Switzerland",
+		"leaderName": "Henri Guisan",
+		"adjective": ["Swiss"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Henri Guisan",
+
+		"startIntroPart1": "Good day to you, General Henri Guisan. The steadfast leader and sentinel of our peaceful confederacy. For many years, Switzerland have long stopped participating in conflicts started by our neighbors and have took the stance of permanent neutrality since the end of the reign of Napoleon from the 19th Century. This was done to prevent anymore suffering of our people and our confederation from conflicts and war. Even so, many wars erupted within the borders of our nation, and many times that it dared to spill over the borders of our peaceful nation. However, time and time again we have proved that we shall remain steadfast on our belief that our nation shall never take arms again, unless of course invaded and forced our hands to take arms to defend itself.",
+		"startIntroPart2": "However, times are changing, General. Many great civilizations are rising up, and among them are warmongering nations who shall not hesitate to invade and attack us to prove that their nation are stronger are shall go at great lengths to assimilate our people. General, can you ensure that our nation remains protected from outside threats? Can you continue to uphold our stance for neutrality? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "Your despicable acts have forced me to break our long neutrality and declare war upon your evil nation!",
+		"attacked": "Switzerland shall not capitulate to your demands and will stand triumphant in the end!",
+		"defeated": "I did everything to preserve our nation. But alas, what I did is not enough.",
+		"introduction": "I am Henri Guisan, General of the army of Switzerland. I hope we can agree to mind each other's affairs.",
+		
+		"neutralHello": "Good day to you.",
+		"hateHello": "What?",
+		
+		"tradeRequest": "Are you interested to trade with us?",
+		"outerColor": [237, 28, 36],
+		"innerColor": [255, 255, 255],	
+		
+		"uniqueName": "Swiss Neutrality",
+		"uniques": [ "[+10]% growth [in all cities] <when not at war>",
+		"[+2 Gold, +2 Science] [in all cities] <when not at war>",
+		"[-2 Happiness] [in all cities] <when at war>"],
+		"cities": ["Bern", "Zurich", "Geneva", "Basel", "Lausanne", "Lucerne", "St. Gallen", "Winterthur", "Lugano", "Biel/Bienne", "Thun", "Fribourg", "Schaffhausen", "Chur", "Neuchâtel", "Sion", "Aarau", "Solothurn", "Bellinzona", "Kreuzlingen", "Martigny", "Yverdon-les-Bains", "Zug", "Locarno", "Baden", "Wil", "Uster", "Rapperswil-Jona", "Vevey", "Montreux", "Glarus", "Olten", "Delémont", "Pully", "Liestal"],
+		"spyNames": ["Hans Hausamann", "Max Waibel", "Roger Masson", "Paul Grüninger", "Carl Lutz", "Édouard de Haller", "Walter Mittelholzer", "Friedrich Traugott Wahlen", "Elisabeth Eidenbenz", "Georges Brunschvig"]
+	},	
+	
+	{
+		"name": "Turkey",
+		"leaderName": "İsmet İnönü",
+		"adjective": ["Turkish"],
+		"startBias": ["Avoid [Tundra]", "Avoid [Jungle]"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Islam", 
+		"personality": "İsmet İnönü",
+
+		"startIntroPart1": "May Allah bless you and our republic, President İsmet İnönü. Officer, statesman and the right hand man of the father of our republic, Atatürk. Our nation was born from the ashes of the Great War and the dying breath of our Ottoman predecessors. As we lost our empire, the foreign powers of Great Britain, France and Greece sought to further destroy our nation by partitioning it through the treaty of Sèvres. However, you and Mustafa Kemal Atatürk have raised arms to resist such unjust treaty and had won our war for independence. Positioning ourselves as a free and independent nation ruled by no one but ourselves. Cementing our position as a nation for many more years to come.",
+		"startIntroPart2": "Mr. President, will you rise to the challenge once more and bring more prestige and greatness to our nation? Can you defend our nations from our jealous rivals? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "We had enough of other nations humilating ours! Now it is your turn to be humbled.",
+		"attacked": "The spirit of Atatürk shall be with us. For we will either die or be free!",
+		"defeated": "Sevgili dostum, I have failed you. I have failed our people...",
+		"introduction": "I am İsmet İnönü, President of our Republic and the Turkish people. I welcome you within our nation.",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What is it!?",
+		
+		"tradeRequest": "I say this agreement is fair. Yes?",
+		"outerColor": [227, 10, 23],
+		"innerColor": [255, 255, 255],	
+		
+		"uniqueName": "Bridge Between Continents",
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route <on foreign continents>", //maybe external trade related unique on BNW?
+		"[+2 Gold] from every [Iron] <after discovering [Industrialization]>",
+		"[+2 Gold] from every [Aluminum]",],
+		"cities": ["Ankara", "Istanbul", "Izmir", "Bursa", "Adana", "Gaziantep", "Konya", "Kayseri", "Eskisehir", "Diyarbakir", "Antalya", "Samsun", "Mersin", "Trabzon", "Erzurum", "Malatya", "Kocaeli", "Hatay", "Manisa", "Sivas", "Elazig", "Balikesir", "Denizli", "Van", "Aydin", "Afyonkarahisar", "Kastamonu", "Kahramanmaras", "Batman", "Ordu", "Tokat", "Amasya", "Sinop", "Yozgat", "Zonguldak", "Usak", "Bolu", "Canakkale", "Corum", "Isparta", "Kirsehir", "Mugla", "Nevsehir", "Rize", "Siirt"],
+		"spyNames": ["Hüseyin Hüsnü Emir Erkilet", "Nuri Killigil", "Selahattin Ülkümen", "Necdet Ken", "Fahrettin Altay", "Zeki Kuneralp", "Sabri Berkel", "Ahmet Hulki Saral", "Ali Fuat Cebesoy", "Burhan Belge"]
 	},	
 
 ]

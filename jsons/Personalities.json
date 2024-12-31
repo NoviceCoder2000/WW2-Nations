@@ -443,4 +443,116 @@
       }
 },
 
+{
+    "name": "Edvard Beneš",
+    "preferredVictoryType": "Diplomatic",
+    
+    // Stats focused personalities
+    "production": 5,
+    "food": 5,
+    "gold": 6,
+    "science": 7,
+    "culture": 6,
+    "happiness": 5,
+    "faith": 3,
+    
+    // Behaviour focused personalities
+    "military": 4,
+    "aggressive": 2,
+    "declareWar": 3,
+    "commerce": 6,
+    "diplomacy": 9,
+    "loyal": 8,
+    "expansion": 3,
+
+    // Policy focused personality
+    "priorities": {
+        "Tradition": 5,
+        "Liberty": 8,
+        "Honor": 3,
+        "Commerce": 6,
+        "Patronage": 7,
+        "Piety": 3,
+        "Rationalism": 7,
+        "Freedom": 9,
+        "Autocracy": 2,
+        "Order": 4
+    }
+}
+
+{
+    "name": "Henri Guisan",
+    "preferredVictoryType": "Scientific",
+    
+    // Stats focused personalities
+    "production": 5,
+    "food": 5,
+    "gold": 7,
+    "science": 6,
+    "culture": 6,
+    "happiness": 5,
+    "faith": 4,
+    
+    // Behaviour focused personalities
+    "military": 6,
+    "aggressive": 3,
+    "declareWar": 0,
+    "commerce": 8,
+    "diplomacy": 7,
+    "loyal": 9,
+    "expansion": 3,
+
+    // Policy focused personality
+    "priorities": {
+        "Tradition": 3,
+        "Liberty": 8,
+        "Honor": 4,
+        "Commerce": 7,
+        "Patronage": 5,
+        "Piety": 3,
+        "Rationalism": 8,
+        "Freedom": 9,
+        "Autocracy": 1,
+        "Order": 2
+    }
+},
+
+{
+    "name": "İsmet İnönü",
+    "preferredVictoryType": "Diplomatic",
+    
+    // Stats focused personalities
+    "production": 6,
+    "food": 5,
+    "gold": 7,
+    "science": 6,
+    "culture": 5,
+    "happiness": 5,
+    "faith": 4,
+    
+    // Behaviour focused personalities
+    "military": 5,
+    "aggressive": 2,
+    "declareWar": 2,
+    "commerce": 8,
+    "diplomacy": 8,
+    "loyal": 7,
+    "expansion": 3,
+
+    // Policy focused personality
+    "priorities": {
+        "Tradition": 4,
+        "Liberty": 6,
+        "Honor": 4,
+        "Commerce": 7,
+        "Patronage": 8,
+        "Piety": 3,
+        "Rationalism": 7,
+        "Freedom": 6,
+        "Autocracy": 3,
+        "Order": 3
+    }
+}
+
+
 ]

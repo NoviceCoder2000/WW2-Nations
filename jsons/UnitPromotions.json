@@ -31,6 +31,13 @@
 		"uniques": ["[+15]% Strength <when adjacent to a [Armored] unit>",
 		"[+10]% Strength bonus for [Armored] units within [2] tiles"]
 	},
+	
+	{
+		"name": "[Landwehr] ability",
+		"uniques": ["[-20]% Strength <when attacking>",
+		"[+20]% Strength <when defending>",
+		"[+15]% Strength <when fighting in [Fort] tiles>"]
+	},
 
 //Substitute promotions
 	{
