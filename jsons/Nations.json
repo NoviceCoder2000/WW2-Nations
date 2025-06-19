@@ -186,7 +186,7 @@
 		"innerColor": [255,255,0],
 		
 		"uniqueName": "War of The People",
-		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[+15]% Production when constructing [Land] units [in all cities] <when at war>","[+15]% [Science]  [in all cities] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
+		"uniques": ["[-75]% maintenance costs <for [All] units> <when at war>", "[+15]% Production when constructing [Land] units [in all cities] <when at war>","[+15]% [Science] [in your cities] <when at war>","Nullifies [Culture] [in all cities] <when at war>","Nullifies Growth [in all cities] <when at war>"],
 		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"],
 		"spyNames": ["Pavel Sudoplatov", "Leopold Trepper", "Nikolai Kuznetsov", "Vasily Zarubin", "Elizaveta Zarubina", "Anatoli Gurevich", "Alexander Radó", "Sándor Radó", "Vladimir Dekanozov", "Stanisław Flato"]
 	},
@@ -340,6 +340,38 @@
 		"[+15]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Rome", "Milan", "Naples", "Turin", "Genoa", "Florence", "Bologna", "Trieste", "Palermo", "Verona", "Cagliari", "Catania", "Livorno", "Modena", "Parma", "Pisa", "Bari", "Siena", "Vicenza", "Ancona", "Arezzo", "Rimini", "La Spezia", "Reggio Emilia", "Sassari", "Bolzano", "Perugia", "Taranto", "Foggia", "Terni", "Forlí", "Brescia", "Trapani", "Catanzaro", "Aosta", "Gorizia", "L'Aquila", "Pordenone", "Sondrio", "La Maddalena", "Montecatini Terme", "Oristano", "Ragusa", "Massa", "Cosenza"],
 		"spyNames": ["Gianfranco Mingozzi", "Alfredo P. Sordini", "Luigi Ferraro", "Giuseppe Lazzaro", "Piero Orsi", "Vittorio Mussolini", "Gino Cappa", "Alberto Ronchetti", "Francesco Ferraresi", "Marcello Carli"]
+	},
+
+	{
+		"name": "Hungary",
+		"leaderName": "Miklós Horthy",
+		"adjective": ["Hungarian"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity", //Catholicism in BNW
+		"personality": "Miklós Horthy",
+
+		"startIntroPart1": "Greetings to you Admiral and Regent of the Hungarian people, Miklós Horthy! Hungary was once a proud nation full of talented men and women. Stretching from the Adriatic, to Transylvania. However, the Treaty of Trianon, the Austrians and the Great War have destroyed our nation, reducing it from a proud and honorable nation to an irrelevant state that it is today!",
+		"startIntroPart2": "However, all is not loss Your Grace! Hungary can rebound from this disaster, with you stewarding our nation, we can bring Hungary to its former glory and avenger our people from the Treaty of Trianon. Your Grace, the fate of our nation is in your hands. Can you make Hungary great again? Can you thwart the evil plans of our enemies? Can you build a civilization that can stand the test of time?",
+		
+		"declaringWar": "This war is the war of the Hungarian people! Let this restore our prestige to the world!",
+		"attacked": "We shall defend our lands and sovereignty until the end! We shall not allow another Trianoni békeszerződés to happen!",
+		"defeated": "I have always tried to serve my country as a Hungarian... yet in the end, I have failed.",
+		"introduction": "I am Miklós Horthy, regent of the the great nation of Hungary. I am pleased to meet you.",
+		
+		"neutralHello": "Helló.",
+		"hateHello": "What!?",
+		
+		"tradeRequest": "Our nations can prosper further if you accept this deal!",
+		"outerColor": [63, 182, 135],
+		"innerColor": [158, 35, 47],	
+		"uniqueName": "Hungarian Irredentism",
+		"uniques": ["[+15]% Strength <when fighting in [Foreign] tiles>",
+		"[+2 Happiness] <in cities connected to the capital>",
+		"[+10]% Unhappiness from [Population] [in annexed cities]",
+		"Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately"],
+		"cities": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs", "Győr", "Nyíregyháza", "Kecskemét", "Székesfehérvár", "Szombathely", "Szolnok", "Kaposvár", "Tatabánya", "Érsekújvár", "Békéscsaba", "Zalaegerszeg", "Eger", "Veszprém", "Nagykanizsa", "Hódmezővásárhely", "Sopron", "Dunaújváros", "Salgótarján", "Cegléd", "Baja", "Esztergom", "Szentendre", "Mosonmagyaróvár", "Orosháza", "Gyula", "Siófok", "Komárom", "Makó", "Kalocsa", "Hatvan", "Mezőkövesd", "Balassagyarmat", "Bicske", "Mohács", "Kiskunfélegyháza", "Pápa", "Ajka", "Gyöngyös", "Csorna", "Sátoraljaújhely", "Füzesabony"],
+		"spyNames": ["László Almásy", "György Pásztor", "András Hory", "Sándor Barcsay", "Dr. Gábor Haraszti", "Miklós Horthy Jr.", "István Kállay Jr.", "Sándor Barcsay", "Kálmán Kéri", "László Veress"]
 	},
 
 

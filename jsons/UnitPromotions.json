@@ -33,6 +33,11 @@
 	},
 	
 	{
+		"name": "[Turan] ability",
+		"uniques": ["[+15]% Strength <when adjacent to a [Turan] unit>"]
+	},
+	
+	{
 		"name": "[Landwehr] ability",
 		"uniques": ["[-20]% Strength <when attacking>",
 		"[+20]% Strength <when defending>",

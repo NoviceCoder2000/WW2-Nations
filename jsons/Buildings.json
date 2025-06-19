@@ -5,12 +5,12 @@
 		"uniqueTo": "Reichskommissariate des Ostens",
 		"maintenance": 0,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"[+2 Gold] per [1] population [in this city]",
 			"[+1 Production] per [1] population [in this city]"
-			"[-50]% [Culture] [in this citiy]"
-			"[-50]% [Science] [in this citiy]"
+			"[-50]% [Culture] [in this city]"
+			"[-50]% [Science] [in this city]"
 			"[-50]% growth [in this city]"],
 		"requiredTech": "Mathematics"
 	},
@@ -67,8 +67,8 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
-		"New [Gunpowder] units start with [15] Experience [in this city]"		
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+		"New [Gunpowder] units start with [15] XP [in this city]"		
 		"[+2 Culture, +2 Production] [in this city] <with a garrison>",
 		"Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
@@ -142,7 +142,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[+25]% Production when constructing [Settler] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 	
@@ -155,9 +155,9 @@
 		"culture": 1
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
 		"All newly-trained [Melee] units [in this city] receive the [Drill I] promotion",
-		"All newly-trained [Gunpowders] units [in this city] receive the [Drill I] promotion"
+		"All newly-trained [Gunpowder] units [in this city] receive the [Drill I] promotion"
 		"Destroyed when the city is captured"],
 		"requiredTech": "Metal Casting"
 	},

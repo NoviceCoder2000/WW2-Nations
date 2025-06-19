@@ -332,6 +332,44 @@
       }
 }
 
+{
+	  "name": "Miklós Horthy",
+	  "preferredVictoryType": "Domination",
+
+	  // Stats focused personalities	  
+	  "production": 6,
+	  "food": 5,
+	  "gold": 6,
+	  "science": 6,	  
+	  "culture": 6,
+	  "happiness": 4,
+	  "faith": 5,
+	  
+	  // Behaviour focused personalities
+	  "military": 8,
+	  "aggressive": 7,
+	  "declareWar": 7,
+	  "commerce": 6,
+	  "diplomacy": 4,
+	  "loyal": 5,
+	  "expansion": 10,
+
+	  // Policy focused personality
+	  "priorities": {
+		"Tradition": 5,
+		"Liberty": 4,
+		"Honor": 9,
+		"Commerce": 7,
+		"Patronage": 3,
+		"Piety": 5,
+		"Rationalism": 6,
+		"Freedom": 2,
+		"Autocracy": 10,
+		"Order": 1
+	  }
+}
+
+
  {
       "name": "Chiang Kai-shek",
 	  "preferredVictoryType": "Diplomatic",

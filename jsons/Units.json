@@ -185,7 +185,7 @@
 		"uniques": ["[+33]% Strength <vs [Melee Water] units>",
 		"[+33]% Strength <vs [Ranged Water] units>",
 		"[-33]% Strength <vs [Bomber] units>"
-		"[-50]% Strength <vs [Submarines] units> <when defending>"],
+		"[-50]% Strength <vs [Submarine] units> <when defending>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -222,6 +222,41 @@
 		"[+150]% Strength <vs [Helicopter] units>"],
 		"promotions": ["Dogfighting I", "Operational Range"],
 		"attackSound": "machinegun"
+	},
+	
+	{
+		"name": "Turan",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Hungary",
+		"movement": 5,
+		"strength": 63,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking",
+		"No defensive terrain bonus",
+		"[+15]% Strength <in tiles adjacent to [City center] tiles>"],
+		"promotions": ["[Turan] ability"]
+		"attackSound": "tankshot"
+	},
+	
+	{
+		"name": "Szent László Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Hungary",
+		"movement": 2,
+		"strength": 72,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["[+15]% Strength <when defending>"
+		"[+5]% Strength <when fighting in [Rough terrain] tiles>",
+		"No damage penalty for wounded units"]
+		"attackSound": "shot"
 	},
 	
 //Non-aligned nations
@@ -309,7 +344,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"uniques": ["[+15]% Strength <when fighting in [Foreign] tiles>",
-		"[+15]% Strength <when adjacent to a [Friendly] unit>",
+		"[+15]% Strength <when adjacent to a [Spanish Republic] unit>",
 		"Can move immediately once bought"
 		]
 		"obsoleteTech": "Mobile Tactics",
