@@ -6,56 +6,56 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Assembly Plant
   rotate: false
-  xy: 1395, 1579
+  xy: 1616, 1579
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Cafe
   rotate: false
-  xy: 1603, 1371
+  xy: 1824, 1371
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Casa del Pueblo
   rotate: false
-  xy: 1811, 1371
+  xy: 1395, 1163
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Centrum Wyszkolenia
   rotate: false
-  xy: 1594, 1163
+  xy: 1811, 1163
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dojo
   rotate: false
-  xy: 1594, 955
+  xy: 1802, 955
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Frontier Outpost
   rotate: false
-  xy: 1802, 955
+  xy: 1386, 747
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Liman
   rotate: false
-  xy: 1765, 747
+  xy: 1208, 331
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Naval Dockyard
   rotate: false
-  xy: 1208, 331
+  xy: 1416, 539
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -69,14 +69,7 @@ BuildingIcons/Reichskommissariat Verwaltung
   index: -1
 BuildingIcons/Swiss Bank
   rotate: false
-  xy: 1416, 331
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Škoda Works
-  rotate: false
-  xy: 1624, 123
+  xy: 1624, 331
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -146,7 +139,7 @@ LeaderIcons/Henri Guisan
   index: -1
 LeaderIcons/Hideki Tojo
   rotate: false
-  xy: 1128, 792
+  xy: 1187, 1566
   size: 213, 213
   orig: 213, 213
   offset: 0, 0
@@ -165,88 +158,46 @@ LeaderIcons/Manuel Azaña
   orig: 430, 430
   offset: 0, 0
   index: -1
-LeaderIcons/Winston Churchill
-  rotate: false
-  xy: 929, 1529
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-LeaderIcons/Władysław Sikorski
-  rotate: false
-  xy: 929, 1271
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-LeaderIcons/İsmet İnönü
-  rotate: false
-  xy: 1128, 1013
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-NationIcons/Czechoslovakia
-  rotate: false
-  xy: 1208, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Empire of Japan
-  rotate: false
-  xy: 1316, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/French Republic
-  rotate: false
-  xy: 1424, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/German Reich
-  rotate: false
-  xy: 1532, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Kingdom of Italy
-  rotate: false
-  xy: 1640, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Reichskommissariate des Ostens
-  rotate: false
-  xy: 929, 1163
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Republic of China
-  rotate: false
-  xy: 1856, 223
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Republic of Poland
+LeaderIcons/Miklós Horthy
   rotate: false
   xy: 1724, 1787
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
-NationIcons/Soviet Union
+LeaderIcons/Winston Churchill
   rotate: false
-  xy: 1856, 115
-  size: 100, 100
-  orig: 100, 100
+  xy: 929, 1271
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/Władysław Sikorski
+  rotate: false
+  xy: 1128, 1013
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+LeaderIcons/İsmet İnönü
+  rotate: false
+  xy: 1128, 755
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+NationIcons/Hungary
+  rotate: false
+  xy: 1594, 747
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Republic of Poland
+  rotate: false
+  xy: 929, 1529
+  size: 250, 250
+  orig: 250, 250
   offset: 0, 0
   index: -1
 NationIcons/Spanish Republic
@@ -256,232 +207,309 @@ NationIcons/Spanish Republic
   orig: 500, 500
   offset: 0, 0
   index: -1
-NationIcons/Spanish State
-  rotate: false
-  xy: 1856, 7
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Positive Christianity
-  rotate: false
-  xy: 1748, 15
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/'Flying Tigers'
   rotate: false
-  xy: 1187, 1579
+  xy: 1187, 1358
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Alpini
   rotate: false
-  xy: 1187, 1371
+  xy: 1408, 1579
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/BM-13
   rotate: false
-  xy: 1603, 1579
+  xy: 1824, 1579
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Black Brigade Infantry
   rotate: false
-  xy: 1811, 1579
+  xy: 1408, 1371
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Brigadas Internacionales
   rotate: false
-  xy: 1395, 1371
+  xy: 1616, 1371
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Central Army Infantry
   rotate: false
-  xy: 1386, 1163
+  xy: 1603, 1163
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Char B1
   rotate: false
-  xy: 1802, 1163
+  xy: 1386, 955
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Condor Legion
   rotate: false
-  xy: 1386, 955
+  xy: 1594, 955
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Ju 87
   rotate: false
-  xy: 1349, 747
+  xy: 1802, 747
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Landwehr
   rotate: false
-  xy: 1557, 747
+  xy: 1208, 539
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Macchi C.202 Folgore
   rotate: false
-  xy: 1208, 539
+  xy: 1208, 123
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Piyade
   rotate: false
-  xy: 1208, 123
+  xy: 1624, 539
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Regulares
   rotate: false
-  xy: 1416, 539
+  xy: 1832, 539
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/SS Panzergrenadiers
   rotate: false
-  xy: 1624, 539
+  xy: 1416, 331
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Supermarine Spitfire
   rotate: false
-  xy: 1832, 539
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/T-34
-  rotate: false
   xy: 1416, 123
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Yamato-Class
-  rotate: false
-  xy: 1624, 331
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/ČKD LT vz. 38
+UnitIcons/Szent László Infantry
   rotate: false
   xy: 1832, 331
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/T-34
+  rotate: false
+  xy: 1624, 123
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Turan
+  rotate: false
+  xy: 1832, 123
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 
 game2.png
-size: 1024, 128
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Škoda Works
+  rotate: false
+  xy: 420, 40
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Czechoslovakia
+  rotate: false
+  xy: 628, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Empire of Japan
+  rotate: false
+  xy: 736, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/French Republic
+  rotate: false
+  xy: 844, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/German Reich
+  rotate: false
+  xy: 952, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kingdom of Italy
+  rotate: false
+  xy: 1060, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Reichskommissariate des Ostens
+  rotate: false
+  xy: 1276, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Republic of China
+  rotate: false
+  xy: 1384, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Soviet Union
+  rotate: false
+  xy: 1492, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Spanish State
+  rotate: false
+  xy: 1600, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Switzerland
   rotate: false
-  xy: 112, 4
+  xy: 1816, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Turkey
   rotate: false
-  xy: 328, 4
+  xy: 628, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United Kingdom
   rotate: false
-  xy: 436, 4
+  xy: 736, 32
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United States of America
   rotate: false
-  xy: 544, 4
+  xy: 844, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Positive Christianity
+  rotate: false
+  xy: 1168, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/State Shintoism
   rotate: false
-  xy: 4, 4
+  xy: 1708, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/BM-13
   rotate: false
-  xy: 710, 72
+  xy: 952, 42
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/T-34
   rotate: false
-  xy: 750, 72
+  xy: 1010, 100
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tiger
   rotate: false
-  xy: 790, 72
+  xy: 1050, 100
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tiger I
   rotate: false
-  xy: 830, 76
+  xy: 46, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Yamato-Class
   rotate: false
-  xy: 652, 18
+  xy: 4, 4
   size: 34, 28
   orig: 34, 28
   offset: 0, 0
   index: -1
 UnitIcons/Tiger I
   rotate: false
-  xy: 220, 4
+  xy: 1924, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Yamato-Class
+  rotate: false
+  xy: 4, 40
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/ČKD LT vz. 38
+  rotate: false
+  xy: 212, 40
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Kamikaze!
   rotate: false
-  xy: 652, 54
+  xy: 952, 82
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
