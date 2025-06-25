@@ -49,18 +49,17 @@
 	},
 	
 	{
-		"name": "BM-13",
+		"name": "BM-13 'Katyusha'",
 		"unitType": "Siege",
 		"uniqueTo": "Soviet Union",
 		"replaces": "Rocket Artillery",
 		"movement": 2,
-		"strength": 45,
-		"rangedStrength": 60,
+		"strength": 30,
+		"rangedStrength": 50,
 		"range": 3,
-		"cost": 425,
+		"cost": 375,
 		"requiredTech": "Rocketry",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Gunpowder] units> <when attacking>","No defensive terrain bonus","[-1] Sight","Ranged attacks may be performed over obstacles"],
+		"uniques": ["Comment [Aluminum not required]","[+150]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Gunpowder] units> <when attacking>","No defensive terrain bonus","Ranged attacks may be performed over obstacles","[-1] Sight"],
 		"attackSound": "artillery"
 	},
 	
