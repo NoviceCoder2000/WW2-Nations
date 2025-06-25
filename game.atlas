@@ -221,7 +221,7 @@ UnitIcons/Alpini
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/BM-13
+UnitIcons/BM-13 'Katyusha'
   rotate: false
   xy: 1824, 1579
   size: 200, 200
